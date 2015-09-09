@@ -1,0 +1,194 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{CJK}
+
+% Set your name here
+\def\name{Xia Lixun}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {DC, DSP, ASIC},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+% Place name at left
+{\huge 夏立勋}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.4in}
+
+\begin{minipage}{0.6\linewidth}
+  \href{http://maps.baidu.com/#panoid=01002900001405281628351815X&panotype=street&heading=85.57&pitch=-6.99&l=14&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002900001405281628351815X&psp=%7B%22PanoModule%22%3A%7B%22markerUid%22%3A%22cf08edb34ee3c0b52de67b02%22%7D%2C%22PoiInfoPanelModule%22%3A%7B%22uid%22%3A%22cf08edb34ee3c0b52de67b02%22%7D%7D}{ 南榭雨街18号 菁华公寓,} \\
+  苏州工业园区, 215025\\
+  江苏省苏州市\\
+  %China P.R.
+  %SE-412 96, G\"{o}teborg, \\
+  %Sweden
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+  \begin{tabular}{ll}
+    移动电话: & 13013815427 \\
+    %Mobile: & (046) 0765838976 \\
+    %Fax: &  (919) 962-5678 \\
+    电子邮件: & \href{mailto:lixun.xia@outlook.com}{\tt lixun.xia@outlook.com} \\
+    %Homepage: & \href{http://www.stat-or.unc.edu/}{\tt http://www.stat-or.unc.edu/} \\
+  \end{tabular}
+\end{minipage}
+
+\vspace{0.3in}
+
+\section*{LinkedIn}
+\begin{itemize}
+\item \href{http://www.linkedin.com/pub/lixun-xia/1b/212/219}{\tt http://www.linkedin.com/pub/lixun-xia/1b/212/219}
+\end{itemize}
+
+
+\section*{工作经验}
+\begin{itemize}
+  \item 2014.6 - 2015.4 \hspace{0.2in} 高级DSP工程师，哈曼苏州
+  \item 负责车载音频功放的信号处理软件的开发及维护。
+  \item 数字音效处理，软件框架(Audio Framework)的实现和维护。
+  \item 通过DSP算法实现节约高效电源(H-Class)的硬件成本。
+  \item 有源噪声消除算法的移植以及应用相关，用于发动机谐波降噪。
+  \item 基于功放的应用开发，例如汽车提示音等
+  \item 功放软件的Bug shooting.
+  \item 功放系统软件硬件的文档化工作。
+  \vspace{0.2in}
+  \item 2010.10 - 2014.3 \hspace{0.2in}研发工程师， Acosense瑞典
+  \item 负责工业用非侵入式有源声频谱传感器的硬件及软件开发。包括信号调理硬件原理图设计，传感器数据采集软件，震动信号处理软件以及部分机器学习代码。
+
+\end{itemize}
+
+
+
+\section*{教育经历}
+\begin{itemize}
+\item 2008.9 - 2010.9 \hspace{0.2in} 硕士, 瑞典查尔姆斯大学电子工程。
+\item 2005.9 - 2008.6 \hspace{0.2in} 硕士, 中南大学控制科学与工程。
+\item 2001.9 - 2005.6 \hspace{0.2in} 学士, 中南大学自动化。
+\end{itemize}
+
+
+
+\section*{项目经验}
+\begin{itemize}
+  \item 2014 - 2015 \hspace{0.2in}车载功放产品的软件开发，维护及文档建立: 针对发动机噪声的有源噪声消除; 引擎声响的合成; 数字音效处理(环绕立体声等等); 高效电源的DSP控制等。使用ADI定点及浮点处理器。C/C++为主要开发语言。
+  \vspace{0.2in}
+  \item 2010 - 2014 \hspace{0.2in}工业用非侵入式有源声频谱监测传感器${\textit ACOspector^{TM}}$的设计及开发, 产品用于各类流体性质的实时监测。产品已部署在瑞典知名造纸化工企业。传感器基于高动态范围PCB加速度传感器。 更多信息请访问
+      \href{http://www.acosense.com}{\tt www.acosense.com}.
+
+\end{itemize}
+
+\section*{技术能力}
+\begin{itemize}
+        %\item Modeling, control and stability analysis of dynamic systems.
+        %\item Power converter circuits design (main circuits, sensors, drives, digital controller etc.).
+        \item Matlab/Simulink建模与仿真。
+        %\item Digital controller design and implementation.
+        %\item Adaptive/optimal filter design (Wiener Filter, LMS/RLS, Kalman filter etc.).
+        \item 传感器数据调理与信号处理软硬件设计。
+        %\item Embedded system design.
+        \item C/C++为主要开发语言。
+        \item 主导过基于FPGA/DSP的数据采集(嵌入式)系统的设计开发。
+        \item 熟练使用VHDL语言，熟悉相关验证方法。
+        %\item Hardware description (VHDL) and verification (testbench).
+        %\item Digital ASIC backend flow (Cadence Encounter).
+        %\item knowledge of digital communication.
+        %\item Applied experience in Linux server application development.
+        \item Linux服务器端(上位机)应用软件开发经验。
+        \item 能够使用SPICE工具进行电路系统设计与仿真。
+        \item 电路原理图设计(Altium Designer/Eagle PCB)。
+        %\item 机器学习算法开发经验(回归分析，主成成分分析)。
+        %\item 熟悉Perl脚本语言。
+        %\item Circuit simulation and analysis with SPICE tools (LTspice).
+        %\item Schematic capture, PCB layout (Altium Designer/Eagle PCB) and soldering.
+        %\item In-depth user of workbench tools: oscilloscopes, function generator and spectrum analyzer etc.
+        \item 熟练使用实验室仪器包括:示波器，信号源，频谱分析仪等等。
+        %\item Knowledge on EMI/EMC test procedures for product design.
+        \item 专业的建立文档的经验，使用 \LaTeX 和 Microsoft Office。
+        \item 熟悉敏捷开发流程和实践。
+\end{itemize}
+
+
+
+
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+\end{CJK*}
+\end{document}

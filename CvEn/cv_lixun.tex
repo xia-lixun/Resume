@@ -1,0 +1,200 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{CJK}
+
+
+
+% Set your name here
+\def\name{Xia Lixun}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {DC, DSP, ASIC},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+% Place name at left
+{\huge \name \hspace{0.1in} (ÏÄÁ¢Ñ«)}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.4in}
+
+\begin{minipage}{0.6\linewidth}
+  \href{http://maps.baidu.com/#panoid=01002900001405281628351815X&panotype=street&heading=85.57&pitch=-6.99&l=14&tn=B_NORMAL_MAP&sc=0&newmap=1&shareurl=1&pid=01002900001405281628351815X&psp=%7B%22PanoModule%22%3A%7B%22markerUid%22%3A%22cf08edb34ee3c0b52de67b02%22%7D%2C%22PoiInfoPanelModule%22%3A%7B%22uid%22%3A%22cf08edb34ee3c0b52de67b02%22%7D%7D}{Jinghua Apartment (Ý¼»ª¹«Ô¢),} \\
+  Nanxieyu Street 18 (ÄÏé¿Óê½Ö18ºÅ),\\
+  Suzhou Industry Park (SIP), 215025\\
+  Suzhou, Jiangsu, China P.R.\\
+  %China P.R.
+  %SE-412 96, G\"{o}teborg, \\
+  %Sweden
+\end{minipage}
+\end{CJK*}
+\begin{minipage}{0.6\linewidth}
+  \begin{tabular}{ll}
+    Mobile: & 13013815427 \\
+    %Mobile: & (046) 0765838976 \\
+    %Fax: &  (919) 962-5678 \\
+    Email: & \href{mailto:lixun.xia@outlook.com}{\tt lixun.xia@outlook.com} \\
+    %Homepage: & \href{http://www.stat-or.unc.edu/}{\tt http://www.stat-or.unc.edu/} \\
+  \end{tabular}
+\end{minipage}
+
+\vspace{0.3in}
+
+\section*{LinkedIn}
+\begin{itemize}
+\item \href{http://www.linkedin.com/pub/lixun-xia/1b/212/219}{\tt http://www.linkedin.com/pub/lixun-xia/1b/212/219}
+\end{itemize}
+
+
+\section*{Work Experience}
+\begin{itemize}
+  \item 2014.6 - 2015.4 \hspace{0.2in} Sr. DSP engineer of Harman Suzhou, China P.R.
+  \item Responsible for development of vehicle audio amplifiers for varies signal processing applications including digital audio effects, active noise cancellation, sound synthesis etc.
+  \vspace{0.2in}
+  \item 2010.10 - 2014.3 \hspace{0.2in}Research and development engineer of Acosense AB, Sweden.
+  \item Responsible for development of active acoustic spectroscopic sensors for fluid measurement. It involves hardware design for sensory signal conditioning and acquisition; software design for signal processing and machine learning.
+
+\end{itemize}
+
+
+
+\section*{Education}
+\begin{itemize}
+\item 2008.9 - 2010.9 \hspace{0.2in} M.Sc. Integrated Electronic System Design, Chalmers University, Sweden.
+\item 2005.9 - 2008.6 \hspace{0.2in} M.Sc. Control Science and Engineering, Central South University, China.
+\item 2001.9 - 2005.6 \hspace{0.2in} B.Sc. Automatic Control, Central South University, China.
+\end{itemize}
+
+
+
+\section*{Project Experience}
+\begin{itemize}
+  \item 2014 - 2015 \hspace{0.2in}Software development engineer of varies features for automobile audio amplifiers: active noise cancellation, engine sound synthesis, tracking power supply, and digital audio effects on ADI fixed point and floating point processors. 
+  \vspace{0.2in}
+  \item 2010 - 2014 \hspace{0.2in}Software development engineer of ${\textit ACOspector^{TM}}$, an industrial fluid property measurement sensor (accelerometer) based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. For more information please visit \href{http://www.acosense.com}{\tt www.acosense.com}.
+
+\end{itemize}
+
+\section*{Technical Skills}
+\begin{itemize}
+        %\item Modeling, control and stability analysis of dynamic systems.
+        %\item Power converter circuits design (main circuits, sensors, drives, digital controller etc.).
+        \item Modelling and simulation using Matlab/Simulink.
+        %\item Digital controller design and implementation.
+        %\item Adaptive/optimal filter design (Wiener Filter, LMS/RLS, Kalman filter etc.).
+        \item Digital/statistical signal processing.
+        %\item Embedded system design.
+        \item Proficient in C/C++.
+        \item Applied knowledge in machine learning (Regression analysis).
+        \item Hardware description (VHDL) and verification (Testbench based).
+        %\item Digital ASIC backend flow (Cadence Encounter).
+        %\item knowledge of digital communication.
+        \item Applied knowledge in Linux application development.
+        %\item Perl scripting language.
+        \item Embedded system design and development based upon FPGA/DSP.
+        \item Circuit simulation and analysis with SPICE tools.
+        \item Schematic capture, simple PCB layout (Altium Designer/Eagle PCB) and soldering.
+        \item Hands-on experience of workbench tools: oscilloscopes, function generator and spectrum analyzer etc.
+        \item Knowledge of EMI/EMC concept and test procedures for product design.
+        \item Documentation with \LaTeX and Microsoft Office.
+        \item Knowledge of Agile Development.
+\end{itemize}
+
+
+
+\section*{Publications}
+\begin{itemize}
+\item Xia Lixun, Liao Bin, \href{http://publications.lib.chalmers.se/records/fulltext/129177.pdf}{"Hardware Platform For Active Acoustic Spectroscopy Sensors"}, Chalmers University of Technologgy, 2010.
+\item Su Mei, Xia Lixun, Sun Yao, et al "Carrier modulation of four-leg matrix converter based on FPGA", Electrical Machines and Systems, 2008. ICEMS 2008. IEEE International Conference on. pp.1247-1250.
+\item Yao Sun, Mei Su, Lixun Xia, et al "Randomized carrier modulation for four-leg matrix converter based on optimal Markov chain", Industrial Technology, 2008. ICIT 2008. IEEE International Conference on. pp.1-6.
+\item Hengsi Qin, Mei Su, Lixun Xia, et al "A novel controller design method for power converters", IEEE 11th Workshop on Control and Modeling for Power Electronics, 2008. COMPEL 2008. IEEE International Conference on.
+\end{itemize}
+
+\section*{Social Services}
+\begin{itemize}
+\item Translation of the \href{http://www.core.org.cn/OcwWeb/Electrical-Engineering-and-Computer-Science/6-334Spring2003/CourseHome/index.htm}{\emph{6.334 Power Electronics} of Open Courseware(OCW) Project} for \\
+China Open Resources for Education(CORE).
+\end{itemize}
+
+
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

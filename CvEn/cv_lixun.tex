@@ -80,7 +80,7 @@
 \begin{CJK*}{GBK}{song}
 
 % Place name at left
-{\huge \name \hspace{0.1in} (ÏÄÁ¢Ñ«)}
+\textbf{\huge \name \hspace{0.1in} (ÏÄÁ¢Ñ«)}
 
 % Alternatively, print name centered and bold:
 %\centerline{\huge \bf \name}
@@ -102,7 +102,7 @@
     Mobile: & 13013815427 \\
     %Mobile: & (046) 0765838976 \\
     %Fax: &  (919) 962-5678 \\
-    Email: & \href{mailto:lixun.xia@outlook.com}{\tt lixun.xia@outlook.com} \\
+    Email: & \href{mailto:lixun.xia@outlook.com}{\tt{lixun.xia@outlook.com}} \\
     %Homepage: & \href{http://www.stat-or.unc.edu/}{\tt http://www.stat-or.unc.edu/} \\
   \end{tabular}
 \end{minipage}
@@ -116,14 +116,32 @@
 
 
 \section*{Work Experience}
-\begin{itemize}
-  \item 2014.6 - 2015.4 \hspace{0.2in} Sr. DSP engineer of Harman Suzhou, China P.R.
-  \item Responsible for development of vehicle audio amplifiers for varies signal processing applications including digital audio effects, active noise cancellation, sound synthesis etc.
-  \vspace{0.2in}
-  \item 2010.10 - 2014.3 \hspace{0.2in}Research and development engineer of Acosense AB, Sweden.
-  \item Responsible for development of active acoustic spectroscopic sensors for fluid measurement. It involves hardware design for sensory signal conditioning and acquisition; software design for signal processing and machine learning.
-
-\end{itemize}
+\begin{description}
+  \item[2014.6 - 2015.4 \hspace{0.2in} \textbf{Sr. DSP engineer of Harman, Suzhou, China P.R.}] \hfill \\
+  %\vspace{0.1in}
+  \begin{itemize}
+  \item[--] Responsible for development of vehicle audio amplifiers for Europe and North America markets.
+  \item[--] Development and maintenance of Audio Framework.
+  \item[--] Cost-down design of amplifiers via novel control algorithm for high-efficient power supply.
+  \item[--] Porting and application of Active Noise Cancellation for engine order sound reduction.
+  \item[--] Feature application design for amplifiers, for instance, chime beeps etc.
+  \item[--] Bug shooting of existing amplifier software.
+  \item[--] Documentation of HW/SW design of amplifier products.
+  \item[--] Work with system engineers for feature validation and integration. 
+  \end{itemize}
+  \vspace{0.4in}
+  \item[2010.10 - 2014.3 \hspace{0.2in}Research and development engineer of Acosense AB, G\"{o}teborg, Sweden] \hfill \\
+  \begin{itemize}
+  \item[--] Lead the development of active acoustic spectroscopic sensors for fluid measurement.
+  \item[--] Determine the specifications for the sensor system.
+  \item[--] Design of signal capture/conditioning hardware as well as processor circuitry.
+  \item[--] Design and implementation of data capture firmware for the FPGA.
+  \item[--] Design and implementation of signal processing software for the Linux server.
+  \item[--] Implement part of the machine learning code for the Linux server.
+  \item[--] SCADA interface and networking software design between sensor terminal and the Linux server.
+  \end{itemize}
+ 
+\end{description}
 
 
 
@@ -137,33 +155,44 @@
 
 
 \section*{Project Experience}
-\begin{itemize}
-  \item 2014 - 2015 \hspace{0.2in}Software development engineer of varies features for automobile audio amplifiers: active noise cancellation, engine sound synthesis, tracking power supply, and digital audio effects on ADI fixed point and floating point processors. 
-  \vspace{0.2in}
-  \item 2010 - 2014 \hspace{0.2in}Software development engineer of ${\textit ACOspector^{TM}}$, an industrial fluid property measurement sensor (accelerometer) based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. For more information please visit \href{http://www.acosense.com}{\tt www.acosense.com}.
-
-\end{itemize}
+\begin{description}
+  \item[Audio Framework \hspace{0.2in} 2014 - 2015] \hfill \\
+  Audio Framework is the software "Skeleton" defined for any amplifier products on how the audio data are routed and processed. Together with signal processing building blocks as the "muscle", the core functionality of an amplifier emerges. My achievement is, for the first time, a systematic description of the working mechanism of the "skeleton" and "muscle" has been formed within the company. The resultant document is extremely useful for both novice and experienced amplifier design engineers.
+  \item[Active Noise Cancellation \hspace{0.2in} 2014 - 2015] \hfill \\
+  Active Noise Cancellation is a widely used technique to suppress unwanted noise in an optimal sense via dynamic algorithms. The main purpose is to reduce engine sound orders for quieter cabinet in passenger cars. My achievement is build of the application document and simulation tool for cross-amplifier porting.
+  \item[Novel Control of Tracking Power Supply \hspace{0.2in} 2014 - 2015] \hfill \\
+  Control of tracking power supply often requires high precision DAC chip for rail indication. My achievement here is the elimination of the DAC chip but utilizing the digital port alone of the DSP chip for rail indication. Cost down is achieved thanks to this novel method of power rail control in H-class PSU.
+  \item[Chime Control via Block Based Processing \hspace{0.2in} 2014 - 2015] \hfill \\
+  Chime or beep sounds are often implemented in the rear stages of a fixed point DSP for short time latency in sample-based fashion. Sometimes however, minimal hardware change criterion implies an implementation on block based DSP such as ${\textit SHARC^{TM}}$. The achievement here is such pilot implementation, showing acceptable latency in practice.
+  \vspace{0.3in}
+  \item[Generation II of ${\textit ACOspector^{TM}}$ \hspace{0.2in} 2012 - 2014] \hfill \\
+  Update of generation I of this non-invasive measurement instrument. Improved FPGA design with fine PCB layout. Update of the firmware and software design mainly focuses on system reliability and security.Better signal processing algorithm has also been devised and employed.
+  \item[Generation I of ${\textit ACOspector^{TM}}$ \hspace{0.2in} 2010 - 2012] \hfill \\
+  Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in \href{http://www.acosense.com}{\tt www.acosense.com}. The concept is based on IoT and cloud computing --- compact, robust and low-cost sensor terminal group paired with one centralized server for data processing in star-topology network. Machine learning running in the backbone builds regression models for fluid property estimation. Hence multiple measurement points can be monitored non-invasively at extremely low cost for modern data-driven factories. As the system designer and developer, my contribution: the path finder of such promising measurement method for the cloud computing age.
+  \vspace{0.3in}
+  \item[Matrix Power Converter Design and Implementation \hspace{0.2in} 2007 - 2008] \hfill \\
+  Matrix power converter has the merit of higher energy density compared to traditional back-to-back rectifier-inverter topology. Nevertheless the synchronized control of all semiconductor switchers poses harder control problem against the old. In this National Science Foundation project, theory of matrix converters has been studied and a prototype has been engineered. The novel prototype is based on four-leg structure thus allows for more intuitive implementation in a carrier-modulation style.
+\end{description}
 
 \section*{Technical Skills}
 \begin{itemize}
         %\item Modeling, control and stability analysis of dynamic systems.
-        %\item Power converter circuits design (main circuits, sensors, drives, digital controller etc.).
         \item Modelling and simulation using Matlab/Simulink.
         %\item Digital controller design and implementation.
         %\item Adaptive/optimal filter design (Wiener Filter, LMS/RLS, Kalman filter etc.).
-        \item Digital/statistical signal processing.
-        %\item Embedded system design.
+        \item Digital/Statistical signal processing.
         \item Proficient in C/C++.
+        \item GCC tool chain for Linux platform.
+        \item Microsoft Visual Studio for Windows platform.
         \item Applied knowledge in machine learning (Regression analysis).
         \item Hardware description (VHDL) and verification (Testbench based).
         %\item Digital ASIC backend flow (Cadence Encounter).
-        %\item knowledge of digital communication.
-        \item Applied knowledge in Linux application development.
-        %\item Perl scripting language.
-        \item Embedded system design and development based upon FPGA/DSP.
+        \item Basic knowledge of digital communication.
+        \item Shell/Perl scripting language.
+        \item Embedded system design and development based upon FPGA/DSP/MCU.
         \item Circuit simulation and analysis with SPICE tools.
         \item Schematic capture, simple PCB layout (Altium Designer/Eagle PCB) and soldering.
-        \item Hands-on experience of workbench tools: oscilloscopes, function generator and spectrum analyzer etc.
+        \item Hands-on experience of workbench tools: oscilloscopes, function generator, spectrum analyzer UPV/UPL, AP etc.
         \item Knowledge of EMI/EMC concept and test procedures for product design.
         \item Documentation with \LaTeX and Microsoft Office.
         \item Knowledge of Agile Development.
@@ -185,6 +214,63 @@
 China Open Resources for Education(CORE).
 \end{itemize}
 
+
+\section*{MSc. Courses in Chalmers Univ.}
+\begin{itemize}
+\item DAT091.Introduction to Electronic System Design
+\item MCC090.CMOS VLSI Design
+\item DAT105.Computer Architecture
+\item EDA222.Real time systems
+\item DAT095.Electronic system design
+\item DAT110.EDA Design Methods
+\item MVE135.Probability and Random Process With Applications
+\item SSY121.Introduction to Communication Engineering
+\item SSY125.Digital Communication
+\item SSY130.Applied Signal Processing
+\item TDA956.Hardware Description and Verification
+\item EDA092.Operating System
+\item ENM060.Power Electronic Converters
+\item TIN092.Algorithms
+\end{itemize}
+
+\section*{BSc. Courses in Central South Univ.}
+\begin{itemize}
+\item C Programming Language
+\item Engineering Mathematics
+\item Complex Analysis and Integral Transform
+\item Physics and Experiments
+\item Mathematical Experiment and Modelling
+\item Circuit Theory
+\item Analog Circuits
+\item Digital Circuits
+\item Machinery Tool Education
+\item Electronics Design Project
+\item Electronic Rotating Machinery and Driving
+\item Control Theory
+\item Computer Architecture and Assembly Language
+\item Modern Measurement Technology
+\item Process Control and Instruments
+\item Fluid Dynamics
+\item Computer Control
+\item Power Electronics
+\item Multi-media Technology
+\item PLC and Applications
+\item Micro-Controller Unit Technology
+\item Driving System Control
+\item Computer Simulation
+\item Digital Signal Processing
+\item Intelligent Control
+\end{itemize}
+
+
+\section*{MSc. Courses in Central South Univ.}
+\begin{itemize}
+  \item Modern Control Theories
+  \item Power Electronics
+  \item Matrix Analysis
+  \item Functional Analysis and Optimization
+  \item System Identification
+\end{itemize}
 
 
 \bigskip

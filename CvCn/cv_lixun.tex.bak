@@ -121,8 +121,7 @@
   \item 有源噪声消除算法的移植以及应用相关，用于发动机谐波降噪。
   \item 基于功放的应用开发，例如汽车提示音等。
   \item 现有功放软件的改进与优化。
-  \item 功放系统软件硬件的文档化工作。
-  \item 软硬件系统的文档化工作。
+  \item 功放系统软件硬件专业的文档化工作。
   \item 协助系统工程师完成集成和测试。
   \end{itemize}
   \vspace{0.3in}
@@ -177,35 +176,114 @@
         %\item Modeling, control and stability analysis of dynamic systems.
         %\item Power converter circuits design (main circuits, sensors, drives, digital controller etc.).
         \item Matlab/Simulink建模与仿真。
-        %\item Digital controller design and implementation.
-        %\item Adaptive/optimal filter design (Wiener Filter, LMS/RLS, Kalman filter etc.).
-        \item 传感器数据调理与信号处理软硬件设计。
-        %\item Embedded system design.
-        \item C/C++为主要开发语言。
-        \item 主导过基于FPGA/DSP/MCU的数据采集(嵌入式)系统的设计开发。
-        \item 熟练使用VHDL语言，熟悉相关验证方法。
+        \item 数字/统计信号处理。
+        \item C/C++语言。
+        \item GCC工具链以及Linux平台应用开发。
+        \item Microsoft Visual Studio以及Windows平台应用开发。
+        \item 机器学习的实践知识(回归分析)
+        \item VHDL语言，熟悉相关验证方法。
+        \item 数字通信原理。
+        \item Shell/Perl脚本语言开发。
+        \item 基于FPGA/DSP/MCU的嵌入式系统的设计与开发。
+        \item 能够使用SPICE工具进行电路系统设计与仿真。
+        \item 电路原理图设计(Altium Designer/Eagle PCB)，简单布线及焊接。
+        \item 熟练使用实验室仪器包括:示波器，信号源，频谱分析仪, UPV/UPL, Audio Precision等等。
+        \item 压电陶瓷传感器以及换能器原理与应用。
+        
+        
+        
+        
         %\item Hardware description (VHDL) and verification (testbench).
         %\item Digital ASIC backend flow (Cadence Encounter).
         %\item knowledge of digital communication.
         %\item Applied experience in Linux server application development.
-        \item Linux服务器端(上位机)应用软件开发经验。
-        \item 能够使用SPICE工具进行电路系统设计与仿真。
-        \item 电路原理图设计(Altium Designer/Eagle PCB)。
+        %\item Linux服务器端(上位机)应用软件开发经验。
+        
+        
         %\item 机器学习算法开发经验(回归分析，主成成分分析)。
         %\item 熟悉Perl脚本语言。
         %\item Circuit simulation and analysis with SPICE tools (LTspice).
         %\item Schematic capture, PCB layout (Altium Designer/Eagle PCB) and soldering.
         %\item In-depth user of workbench tools: oscilloscopes, function generator and spectrum analyzer etc.
-        \item 熟练使用实验室仪器包括:示波器，信号源，频谱分析仪, UPV, AP等等。
+        
         %\item Knowledge on EMI/EMC test procedures for product design.
-        \item EMI/EMC测试流程经验。
+        \item 产品的EMI/EMC测试流程经验。
         \item 专业的建立文档的经验，使用 \LaTeX 和 Microsoft Office。
         \item 熟悉敏捷开发流程和实践。
 \end{itemize}
 
 
+\section*{出版物}
+\begin{itemize}
+\item 夏立勋, 廖斌, \href{http://publications.lib.chalmers.se/records/fulltext/129177.pdf}{"基于有源声频谱的传感器硬件平台"}, 查尔姆斯大学, 2010.
+\item 粟梅, 夏立勋, 孙尧等 "基于FPGA控制的四脚矩阵变换器的载波调制", 电机与系统, 2008. ICEMS 2008. IEEE国际会议. pp.1247-1250.
+\item 孙尧, 粟梅, 夏立勋等 "基于最优马尔科夫链的四脚矩阵变换器的随机载波调制", 工业技术, 2008. ICIT 2008. IEEE国际会议. pp.1-6.
+\item 覃恒思, 粟梅, 夏立勋等 "一种新颖的电力变换器控制器设计方法", IEEE第11届电力电子控制与建模研讨会, 2008. COMPEL 2008. 国际会议.
+\end{itemize}
+
+\section*{社会服务}
+\begin{itemize}
+\item 参与翻译了 \href{http://www.core.org.cn/OcwWeb/Electrical-Engineering-and-Computer-Science/6-334Spring2003/CourseHome/index.htm}{\textbf{"6.334 电力电子"}课程。此课程为中国开源教育协会的开源课件项目(OCW)}。
+\end{itemize}
 
 
+\section*{查尔姆斯大学，硕士课程}
+\begin{itemize}
+\item DAT091.电子系统设计引论
+\item MCC090.CMOS大规模集成电路设计
+\item DAT105.计算机体系结构
+\item EDA222.实时系统
+\item DAT095.电子系统设计实践项目
+\item DAT110.EDA设计方法
+\item MVE135.概率，随机过程及应用
+\item SSY121.通信工程引论
+\item SSY125.数字通信
+\item SSY130.实用信号处理
+\item TDA956.硬件描述及验证
+\item EDA092.操作系统原理
+\item ENM060.电力电子学
+\item TIN092.算法
+\end{itemize}
+
+
+\section*{中南大学，本科课程}
+\begin{itemize}
+\item C语言
+\item 工科数学
+\item 复变函数与积分变换
+\item 大学物理及实验
+\item 数学实验及建模
+\item 电路理论
+\item 模拟电子技术
+\item 数字电子技术
+\item 金工实习
+\item 电子课程设计
+\item 电机与电力拖动
+\item 控制理论
+\item 微机原理与汇编程序设计
+\item 现代检测技术
+\item 过程控制与仪表
+\item 流体力学
+\item 计算机控制
+\item 电力电子学
+\item 多媒体技术
+\item 可编程控制器及应用
+\item 单片机技术
+\item 运动控制系统
+\item 计算机仿真
+\item 数字信号处理
+\item 智能控制
+\end{itemize}
+
+
+\section*{中南大学，硕士课程}
+\begin{itemize}
+  \item 现代控制理论
+  \item 电力电子学
+  \item 矩阵分析理论
+  \item 泛函分析与最优化理论
+  \item 系统辨识
+\end{itemize}
 
 \bigskip
 

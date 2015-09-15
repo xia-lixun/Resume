@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.19)  15 SEP 2015 10:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.19)  15 SEP 2015 11:11
 entering extended mode
 **C:/Users/lixun/Documents/GitHub/Resume/CvEn/cv_lixun.tex
 (C:/Users/lixun/Documents/GitHub/Resume/CvEn/cv_lixun.tex
@@ -424,14 +424,14 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
  [2] [3] [4] [5]
 
 Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 306.
+(hyperref)                using `UNDEFINED' on input line 308.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (C:\Users\lixun\Documents\GitHub\Resume\CvEn\cv_lixun.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `cv_lixun.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -465,7 +465,7 @@ C:/Program Files (x86)/CTex/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Prog
 ram Files (x86)/CTex/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Fi
 les (x86)/CTex/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x8
 6)/CTex/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on cv_lixun.pdf (6 pages, 141235 bytes).
+Output written on cv_lixun.pdf (6 pages, 141260 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)

@@ -167,7 +167,7 @@
   \vspace{0.3in}
   \item[${\textit ACOspector^{TM}}$ -- non-invasive fluid measurement in real-time \hspace{0.2in} 2010 - 2014] \hfill \\
   Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in \href{http://www.acosense.com}{\tt www.acosense.com}. The concept is based on IoT and cloud computing --- compact, robust and low-cost sensor terminal group paired with one centralized server for data processing in star-topology network. Machine learning running in the backbone builds regression models for fluid property estimation. Hence multiple measurement points can be monitored non-invasively at extremely low cost for modern data-driven factories. As the system designer and developer, my contribution: the path finder of such promising measurement method for the cloud computing age.
-  
+
   \vspace{0.1in}
   Technical highlight:
   \begin{itemize}
@@ -292,6 +292,9 @@ China Open Resources for Education(CORE).
   \item Functional Analysis and Optimization
   \item System Identification
 \end{itemize}
+
+
+\section*{Driver's License: C1}
 
 
 \bigskip

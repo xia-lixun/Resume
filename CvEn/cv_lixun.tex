@@ -133,7 +133,7 @@
   \item[2010.10 - 2014.3 \hspace{0.2in}Research and development engineer of Acosense AB, G\"{o}teborg, Sweden] \hfill \\
   \begin{itemize}
   \item[--] Lead the development of active acoustic spectroscopic sensors for fluid measurement.
-  \item[--] Determine the specifications for the sensor system.
+  \item[--] Determine the specifications for the sensor system with customers directly.
   \item[--] Design of signal capture/conditioning hardware as well as processor circuitry.
   \item[--] Design and implementation of data capture firmware for the FPGA.
   \item[--] Design and implementation of signal processing software for the Linux server.
@@ -159,24 +159,37 @@
   \item[Audio Framework \hspace{0.2in} 2014 - 2015] \hfill \\
   Audio Framework is the software "Skeleton" defined for any amplifier products on how the audio data are routed and processed. Together with signal processing building blocks as the "muscle", the core functionality of an amplifier emerges. My achievement is, for the first time, a systematic description of the working mechanism of the "skeleton" and "muscle" has been formed within the company. The resultant document is extremely useful for both novice and experienced amplifier design engineers.
   \item[Active Noise Cancellation \hspace{0.2in} 2014 - 2015] \hfill \\
-  Active Noise Cancellation is a widely used technique to suppress unwanted noise in an optimal sense via dynamic algorithms. The main purpose is to reduce engine sound orders for quieter cabinet in passenger cars. My achievement is build of the application document and simulation tool for cross-amplifier porting.
+  Active Noise Cancellation is a widely used technique to suppress unwanted noise in an optimal sense via dynamic algorithms. The main purpose is to reduce engine sound orders for quieter cabinet in passenger cars. My achievement is the successful transfer of the project to Suzhou site, build of the application document after code analysis, and creation of a simulation tool for cross-amplifier porting. A verification bench environment has also been set up. It consists of amplifier running ANC algorithm and London BLU-80 DSP running vehicle cabinet emulation algorithm.
   \item[Novel Control of Tracking Power Supply \hspace{0.2in} 2014 - 2015] \hfill \\
-  Control of tracking power supply often requires high precision DAC chip for rail indication. My achievement here is the elimination of the DAC chip but utilizing the digital port alone of the DSP chip for rail indication. Cost down is achieved thanks to this novel method of power rail control in H-class PSU.
+  Control of tracking power supply often requires high precision DAC chip for rail indication. My achievement here is the elimination of the DAC chip but utilizing the digital port alone of the DSP chip for rail indication. Cost down has been achieved thanks to this novel method of power rail control in H-class PSU.
   \item[Chime Control via Block Based Processing \hspace{0.2in} 2014 - 2015] \hfill \\
   Chime or beep sounds are often implemented in the rear stages of a fixed point DSP for short time latency in sample-based fashion. Sometimes however, minimal hardware change criterion implies an implementation on block based DSP such as ${\textit SHARC^{TM}}$. The achievement here is such pilot implementation, showing acceptable latency in practice.
   \vspace{0.3in}
-  \item[Generation II of ${\textit ACOspector^{TM}}$ \hspace{0.2in} 2012 - 2014] \hfill \\
-  Update of generation I of this non-invasive measurement instrument. Improved FPGA design with fine PCB layout. Update of the firmware and software design mainly focuses on system reliability and security.Better signal processing algorithm has also been devised and employed.
-  \item[Generation I of ${\textit ACOspector^{TM}}$ \hspace{0.2in} 2010 - 2012] \hfill \\
+  \item[${\textit ACOspector^{TM}}$ -- non-invasive fluid measurement in real-time \hspace{0.2in} 2010 - 2014] \hfill \\
   Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in \href{http://www.acosense.com}{\tt www.acosense.com}. The concept is based on IoT and cloud computing --- compact, robust and low-cost sensor terminal group paired with one centralized server for data processing in star-topology network. Machine learning running in the backbone builds regression models for fluid property estimation. Hence multiple measurement points can be monitored non-invasively at extremely low cost for modern data-driven factories. As the system designer and developer, my contribution: the path finder of such promising measurement method for the cloud computing age.
+
+  \vspace{0.1in}
+  Technical highlight:
+  \begin{itemize}
+    \item[--] Circuit built from scratch, including design, schematic capture and layout, containing middle-scale FPGA chip for MCU cluster. ADC(PCM4222) for high-dynamic range signal capture. DAC(PCM1794A) for high dynamic signal playback. DDR2 DRAM interfacing with the FPGA as the program space. SPI Flash for system boot load. Tri-port Ethernet switch chip for sensory data transmission with the Linux server via TCP/IP.
+    \item[--] All hardware components of the circuitry are carefully determined, taking into account factors like availability, performance and costs.
+    \item[--] Realization of a MCU cluster communication protocol for multi-tasking and synchronization based on FIFO queue, rather than using real-time operating system and single MCU core. This allows taking full advantage of the resources of a FPGA chip.
+    \item[--] Unit tests for all software components. Integration tests at system level.
+    \item[--] Work with members of orthogonal skill sets in agile development style.
+    \item[--] All codes and documentations managed by GIT server.
+    \item[--] Work with customers in Sweden closely to improve product quality and performance.
+    \item[--] Design, prototyping, assembly and testing within our own office and workshop.
+    \item[--] Hands-on experience in hardware design for EMI/EMC tests. CE certification verified.
+  \end{itemize}
   \vspace{0.3in}
   \item[Matrix Power Converter Design and Implementation \hspace{0.2in} 2007 - 2008] \hfill \\
-  Matrix power converter has the merit of higher energy density compared to traditional back-to-back rectifier-inverter topology. Nevertheless the synchronized control of all semiconductor switchers poses harder control problem against the old. In this National Science Foundation project, theory of matrix converters has been studied and a prototype has been engineered. The novel prototype is based on four-leg structure thus allows for more intuitive implementation in a carrier-modulation style.
+  Matrix converter can be used as motor drivers(PSM, Induction Motor) thanks to its high power density.
+  This is an academic project for my first graduate thesis. Matrix power converter has the merit of higher energy density compared to traditional back-to-back rectifier-inverter topology. Nevertheless the synchronized control of all semiconductor switchers poses harder control problem against the old. In this National Science Foundation project, theory of matrix converters has been studied and a prototype has been engineered. The novel prototype is based on four-leg structure thus allows for more intuitive implementation in a carrier-modulation style.
 \end{description}
 
 \section*{Technical Skills}
 \begin{itemize}
-        %\item Modeling, control and stability analysis of dynamic systems.
+        \item Modeling, control and stability analysis of power converter for motor drivers.
         \item Modelling and simulation using Matlab/Simulink.
         %\item Digital controller design and implementation.
         %\item Adaptive/optimal filter design (Wiener Filter, LMS/RLS, Kalman filter etc.).
@@ -193,11 +206,19 @@
         \item Circuit simulation and analysis with SPICE tools.
         \item Schematic capture, simple PCB layout (Altium Designer/Eagle PCB) and soldering.
         \item Hands-on experience of workbench tools: oscilloscopes, function generator, spectrum analyzer UPV/UPL, AP etc.
-        \item Knowledge of EMI/EMC concept and test procedures for product design.
+        \item Knowledge of EMI/EMC concept and test procedures for product design(Experience in CE certification).
+        \item Knowledge of piezoelectric sensors and actuators.
         \item Professional documentation with \LaTeX and Microsoft Office.
         \item Knowledge of Agile Development.
 \end{itemize}
 
+
+\section*{Language Skills}
+\begin{itemize}
+\item Mandarin: native
+\item English: proficient
+\item Swedish: basic
+\end{itemize}
 
 
 \section*{Publications}
@@ -271,6 +292,9 @@ China Open Resources for Education(CORE).
   \item Functional Analysis and Optimization
   \item System Identification
 \end{itemize}
+
+
+\section*{Driver's License: C1}
 
 
 \bigskip

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.19)  13 SEP 2015 00:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.19)  15 SEP 2015 10:40
 entering extended mode
 **C:/Users/lixun/Documents/GitHub/Resume/CvCn/cv_lixun.tex
 (C:/Users/lixun/Documents/GitHub/Resume/CvCn/cv_lixun.tex
@@ -420,29 +420,29 @@ K.sfd}}]
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
 (Font)              Font shape `T1/pplj/b/it' tried instead on input line 163.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 182.
- [2] [3] [4]
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 175.
+ [2] [3] [4] [5]
 
 Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 297.
+(hyperref)                using `UNDEFINED' on input line 319.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
  (C:\Users\lixun\Documents\GitHub\Resume\CvCn\cv_lixun.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
 Package rerunfilecheck Info: File `cv_lixun.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 7317 strings out of 495354
- 106217 string characters out of 3182739
- 213169 words of memory out of 3000000
- 10353 multiletter control sequences out of 15000+200000
- 57562 words of font info for 127 fonts, out of 3000000 for 9000
+ 7366 strings out of 495354
+ 107198 string characters out of 3182739
+ 214169 words of memory out of 3000000
+ 10399 multiletter control sequences out of 15000+200000
+ 57860 words of font info for 128 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,8n,33p,694b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,33p,694b,664s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{UNDEFINED} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -485,9 +485,9 @@ x86)/CTex/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files (x8
 /MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files (x86)/CTex/MiKTe
 X/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/CTex/MiKTeX/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on cv_lixun.pdf (5 pages, 280628 bytes).
+Output written on cv_lixun.pdf (6 pages, 289614 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

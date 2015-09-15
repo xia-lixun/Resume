@@ -1,0 +1,339 @@
+{\rtf1\ansi\uc1\deff0\deflang1024
+{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}
+{\f1\fnil\fcharset0 Arial;}
+{\f2\fnil\fcharset0 Arial;}
+{\f3\fnil\fcharset0 Courier New;}
+{\f4\fnil\fcharset0 Zapf Chancery;}
+{\f5\fnil\fcharset0 STIXGeneral;}
+}
+{\colortbl;
+\red0\green0\blue0;
+\red0\green0\blue255;
+\red0\green255\blue255;
+\red0\green255\blue0;
+\red255\green0\blue255;
+\red255\green0\blue0;
+\red255\green255\blue0;
+\red255\green255\blue255;
+}
+{\stylesheet
+{\s0\qj\widctlpar\f0\fs20 \snext0 Normal;}
+{\cs10 \additive\ssemihidden Default Paragraph Font;}
+{\s1\qc\sb240\sa120\keepn\f0\b\fs40 \sbasedon0\snext0 Part;}
+{\s2\ql\sb240\sa120\keepn\f0\b\fs40 \sbasedon0\snext0 heading 1;}
+{\s3\ql\sb240\sa120\keepn\f0\b\fs32 \sbasedon0\snext0 heading 2;}
+{\s4\ql\sb240\sa120\keepn\f0\b\fs32 \sbasedon0\snext0 heading 3;}
+{\s5\ql\sb240\sa120\keepn\f0\b\fs24 \sbasedon0\snext0 heading 4;}
+{\s6\ql\sb240\sa120\keepn\f0\b\fs24 \sbasedon0\snext0 heading 5;}
+{\s7\ql\sb240\sa120\keepn\f0\b\fs24 \sbasedon0\snext0 heading 6;}
+{\s8\qr\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext8 rightpar;}
+{\s9\qc\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext9 centerpar;}
+{\s10\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext10 leftpar;}
+{\s11\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equation;}
+{\s12\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equationNum;}
+{\s13\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equationAlign;}
+{\s14\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equationAlignNum;}
+{\s15\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equationArray;}
+{\s16\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 equationArrayNum;}
+{\s17\ql\sb120\sa120\keep\widctlpar\f0\fs20 \sbasedon0\snext0 theorem;}
+{\s18\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 bitmapCenter;}
+{\s20\qc\sb240\sa240\b\f0\fs36 \sbasedon0\snext21 Title;}
+{\s21\qc\sa120\f0\fs20 \sbasedon0\snext0 author;}
+{\s22\ql\tqc\tx4536\tqr\tx9072\f0\fs20 \sbasedon0\snext22 footer;}
+{\s23\ql\tqc\tx4536\tqr\tx9072\f0\fs20 \sbasedon0\snext23 header;}
+{\s30\ql\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 caption;}
+{\s31\qc\sb120\sa0\keep\widctlpar\f0\fs20 \sbasedon0\snext0 Figure;}
+{\s32\qc\sb120\sa0\keep\widctlpar\f0\fs20 \sbasedon0\snext32 Table;}
+{\s33\qc\sb120\sa0\keep\widctlpar\f0\fs20 \sbasedon0\snext33 Tabular;}
+{\s34\qc\sb120\sa0\keep\widctlpar\f0\fs20 \sbasedon0\snext34 Tabbing;}
+{\s35\qj\li1024\ri1024\fi340\widctlpar\f0\fs20 \sbasedon0\snext35 Quote;}
+{\s38\ql\widctlpar\f3\fs20 \snext38 verbatim;}
+{\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20 \sbasedon0\snext46 List;}
+{\s47\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20 \sbasedon0\snext47 List 1;}
+{\s50\qc\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 latex picture;}
+{\s51\qc\sb120\sa120\keep\widctlpar\f0 \sbasedon0\snext0 subfigure;}
+{\s61\ql\sb240\sa120\keepn\f0\b\fs32 \sbasedon0\snext62 bibheading;}
+{\s62\ql\fi-567\li567\sb0\sa0\f0\fs20 \sbasedon0\snext62 bibitem;}
+{\s64\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20 \sbasedon0\snext64 endnotes;}
+{\s65\ql\fi-113\li397\lin397\f0\fs20 \sbasedon0\snext65 footnote text;}
+{\s66\qj\fi-170\li454\lin454\f0\fs20 \sbasedon0\snext66 endnote text;}
+{\cs62\super \additive\sbasedon10 footnote reference;}
+{\cs63\super \additive\sbasedon10 endnote reference;}
+{\s67\ql\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext67 acronym;}
+{\s70\qc\sa120\b\f0\fs20 \sbasedon0\snext71 abstract title;}
+{\s71\qj\li1024\ri1024\fi340\widctlpar\f0\fs20 \sbasedon0\snext0 abstract;}
+{\s80\ql\sb240\sa120\keepn\f0\b\fs20 \sbasedon0\snext0 contents_heading;}
+{\s81\ql\li425\tqr\tldot\tx8222\sb240\sa60\keepn\f0\fs20\b \sbasedon0\snext82 toc 1;}
+{\s82\ql\li512\tqr\tldot\tx8222\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext83 toc 2;}
+{\s83\ql\li1024\tqr\tldot\tx8222\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext84 toc 3;}
+{\s84\ql\li1536\tqr\tldot\tx8222\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext85 toc 4;}
+{\s85\ql\li2048\tqr\tldot\tx8222\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext86 toc 5;}
+{\s86\ql\li2560\tqr\tldot\tx8222\sb60\sa60\keepn\f0\fs20 \sbasedon0\snext86 toc 6;}
+}
+{\info
+{\title Original file was cv_lixun.tex}
+{\doccomm Created using latex2rtf 2.3.8 r1240 (released June 16 2014) on Mon Sep 14 19:15:47 2015
+}
+}
+{\footer\pard\plain\f0\fs20\qc\chpgn\par}
+\paperw11960\paperh16900\margl1793\margr1793\margt2028\margb3041\pgnstart0\widowctrl\qj\ftnbj\f0\aftnnar
+{{\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \fi0 \qc [Sorry. Ignored {\plain\f3\\begin\{CJK*\} ... \\end\{CJK*\}}]\par
+}{{\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \fi0 \par
+{\trowd\cellx769\cellx6898
+{\pard\intbl\ql {Mobile:}\cell}
+{\pard\intbl\ql {13013815427}\cell}
+\row}
+{\trowd\cellx769\cellx6898
+{\pard\intbl\ql {Email:}\cell}
+{\pard\intbl\ql {{\f3 \field{\*\fldinst{ HYPERLINK "mailto:lixun.xia@outlook.com" }{{}}}{\fldrslt{\i0\scaps0\b0\f3 {lixun.xia@outlook.com}}}}}\cell}
+\row}
+} }\par
+\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb673 \fi0 LinkedIn\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+{\f3 \field{\*\fldinst{ HYPERLINK "http://www.linkedin.com/pub/lixun-xia/1b/212/219" }{{}}}{\fldrslt{\i0\scaps0\b0\f3 http://www.linkedin.com/pub/lixun-xia/1b/212/219}}}\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Work Experience\par
+{\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b 2014.6 - 2015.4  {\b Sr. DSP engineer of Harman, Suzhou, China P.R.}} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li1200\fi0 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Responsible for development of vehicle audio amplifiers for Europe and North America markets. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Development and maintenance of Audio Framework. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Cost-down design of amplifiers via novel control algorithm for high-efficient power supply. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Porting and application of Active Noise Cancellation for engine order sound reduction. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Feature application design for amplifiers, for instance, chime beeps etc. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Bug shooting of existing amplifier software. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Documentation of HW/SW design of amplifier products. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Work with system engineers for feature validation and integration.\par
+}}\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b 2010.10 - 2014.3 Research and development engineer of Acosense AB, G\'f6teborg, Sweden} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li1200\fi0 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Lead the development of active acoustic spectroscopic sensors for fluid measurement. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Determine the specifications for the sensor system with customers directly. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Design of signal capture/conditioning hardware as well as processor circuitry. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Design and implementation of data capture firmware for the FPGA. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Design and implementation of signal processing software for the Linux server. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Implement part of the machine learning code for the Linux server. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+SCADA interface and networking software design between sensor terminal and the Linux server.\par
+}}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Education\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+2008.9 - 2010.9  M.Sc. Integrated Electronic System Design, Chalmers University, Sweden. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+2005.9 - 2008.6  M.Sc. Control Science and Engineering, Central South University, China. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+2001.9 - 2005.6  B.Sc. Automatic Control, Central South University, China.\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Project Experience\par
+{\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b Audio Framework  2014 - 2015} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 Audio Framework is the software "Skeleton" defined for any amplifier products on how the audio data are routed and processed. Together with signal processing building blocks as the "muscle", the core functionality of an amplifier emerges. My achievement is, for the first time, a systematic description of the working mechanism of the "skeleton" and "muscle" has been formed within the company. The resultant document is extremely useful for both novice and experienced amplifier design engineers. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b Active Noise Cancellation  2014 - 2015} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 Active Noise Cancellation is a widely used technique to suppress unwanted noise in an optimal sense via dynamic algorithms. The main purpose is to reduce engine sound orders for quieter cabinet in passenger cars. My achievement is the successful transfer of the project to Suzhou site, build of the application document after code analysis, and creation of a simulation tool for cross-amplifier porting. A verification bench environment has also been set up. It consists of amplifier running ANC algorithm and London BLU-80 DSP running vehicle cabinet emulation algorithm. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b Novel Control of Tracking Power Supply  2014 - 2015} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 Control of tracking power supply often requires high precision DAC chip for rail indication. My achievement here is the elimination of the DAC chip but utilizing the digital port alone of the DSP chip for rail indication. Cost down has been achieved thanks to this novel method of power rail control in H-class PSU. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b Chime Control via Block Based Processing  2014 - 2015} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 Chime or beep sounds are often implemented in the rear stages of a fixed point DSP for short time latency in sample-based fashion. Sometimes however, minimal hardware change criterion implies an implementation on block based DSP such as {{\field{\*\fldinst{ EQ {{\i {\i S}}{\i H}{\i A}{\i R}{\i C}\\s\\up5({\fs16 {\i T}{\i M}})}}}{\fldrslt }}
+}. The achievement here is such pilot implementation, showing acceptable latency in practice.  \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b {{\field{\*\fldinst{ EQ {{\i A}COspector\\s\\up5({\fs16 TM})}}}{\fldrslt }}
+} \endash  non-invasive fluid measurement in real-time  2010 - 2014} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in {\f3 \field{\*\fldinst{ HYPERLINK "http://www.acosense.com" }{{}}}{\fldrslt{\i0\scaps0\b0\f3 www.acosense.com}}}. The concept is based on IoT and cloud computing \emdash  compact, robust and low-cost sensor terminal group paired with one centralized server for data processing in star-topology network. Machine learning running in the backbone builds regression models for fluid property estimation. Hence multiple measurement points can be monitored non-invasively at extremely low cost for modern data-driven factories. As the system designer and developer, my contribution: the path finder of such promising measurement method for the cloud computing age.\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb144 \li600\fi0 Technical highlight: { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li1200\fi0 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Circuit built from scratch, including design, schematic capture and layout, containing middle-scale FPGA chip for MCU cluster. ADC(PCM4222) for high-dynamic range signal capture. DAC(PCM1794A) for high dynamic signal playback. DDR2 DRAM interfacing with the FPGA as the program space. SPI Flash for system boot load. Tri-port Ethernet switch chip for sensory data transmission with the Linux server via TCP/IP. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+All hardware components of the circuitry are carefully determined, taking into account factors like availability, performance and costs. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Realization of a MCU cluster communication protocol for multi-tasking and synchronization based on FIFO queue, rather than using real-time operating system and single MCU core. This allows taking full advantage of the resources of a FPGA chip. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Unit tests for all software components. Integration tests at system level. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Work with members of orthogonal skill sets in agile development style. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+All codes and documentations managed by GIT server. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Work with customers in Sweden closely to improve product quality and performance. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Design, prototyping, assembly and testing within our own office and workshop. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li1200\fi-300 {\endash }\tab
+Hands-on experience in hardware design for EMI/EMC tests. CE certification verified.\par
+}}\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 {\b Matrix Power Converter Design and Implementation  2007 - 2008} \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 This is an academic project for my first graduate thesis. Matrix power converter has the merit of higher energy density compared to traditional back-to-back rectifier-inverter topology. Nevertheless the synchronized control of all semiconductor switchers poses harder control problem against the old. In this National Science Foundation project, theory of matrix converters has been studied and a prototype has been engineered. The novel prototype is based on four-leg structure thus allows for more intuitive implementation in a carrier-modulation style. \par
+}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb300 \fi0 Technical Skills\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Modelling and simulation using Matlab/Simulink. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Digital/Statistical signal processing. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Proficient in C/C++. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+GCC tool chain for Linux platform. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Microsoft Visual Studio for Windows platform. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Applied knowledge in machine learning (Regression analysis). \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Hardware description (VHDL) and verification (Testbench based). \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Basic knowledge of digital communication. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Shell/Perl scripting language. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Embedded system design and development based upon FPGA/DSP/MCU. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Circuit simulation and analysis with SPICE tools. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Schematic capture, simple PCB layout (Altium Designer/Eagle PCB) and soldering. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Hands-on experience of workbench tools: oscilloscopes, function generator, spectrum analyzer UPV/UPL, AP etc. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Knowledge of EMI/EMC concept and test procedures for product design(Experience in CE certification). \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Knowledge of piezoelectric sensors and actuators. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Professional documentation with {\plain L{\up5\fs16 A}T{\dn6 E}X}and Microsoft Office. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Knowledge of Agile Development.\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Language Skills\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Mandarin: native \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+English: proficient \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Swedish: basic\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Publications\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Xia Lixun, Liao Bin, {\f3 \field{\*\fldinst{ HYPERLINK "http://publications.lib.chalmers.se/records/fulltext/129177.pdf" }{{}}}{\fldrslt{"Hardware Platform For Active Acoustic Spectroscopy Sensors"}}}, Chalmers University of Technologgy, 2010. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Su Mei, Xia Lixun, Sun Yao, et al "Carrier modulation of four-leg matrix converter based on FPGA", Electrical Machines and Systems, 2008. ICEMS 2008. IEEE International Conference on. pp.1247-1250. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Yao Sun, Mei Su, Lixun Xia, et al "Randomized carrier modulation for four-leg matrix converter based on optimal Markov chain", Industrial Technology, 2008. ICIT 2008. IEEE International Conference on. pp.1-6. \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Hengsi Qin, Mei Su, Lixun Xia, et al "A novel controller design method for power converters", IEEE 11th Workshop on Control and Modeling for Power Electronics, 2008. COMPEL 2008. IEEE International Conference on.\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 Social Services\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Translation of the {\f3 \field{\*\fldinst{ HYPERLINK "http://www.core.org.cn/OcwWeb/Electrical-Engineering-and-Computer-Science/6-334Spring2003/CourseHome/index.htm" }{{}}}{\fldrslt{{\i 6.334 Power Electronics} of Open Courseware(OCW) Project}}} for \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \li600\fi0 China Open Resources for Education(CORE).\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 MSc. Courses in Chalmers Univ.\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+DAT091.Introduction to Electronic System Design \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+MCC090.CMOS VLSI Design \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+DAT105.Computer Architecture \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+EDA222.Real Time Systems \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+DAT095.Electronic System Design Project \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+DAT110.EDA Design Methods \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+MVE135.Probability and Random Process With Applications \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+SSY121.Introduction to Communication Engineering \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+SSY125.Digital Communication \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+SSY130.Applied Signal Processing \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+TDA956.Hardware Description and Verification \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+EDA092.Operating System \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+ENM060.Power Electronic Converters \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+TIN092.Algorithms\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 BSc. Courses in Central South Univ.\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+C Programming Language \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Engineering Mathematics \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Complex Analysis and Integral Transform \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Physics and Experiments \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Mathematical Experiment and Modelling \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Circuit Theory \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Analog Circuits \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Digital Circuits \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Machinery Tool Education \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Electronics Design Project \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Electronic Rotating Machinery and Driving \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Control Theory \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Computer Architecture and Assembly Language \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Modern Measurement Technology \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Process Control and Instruments \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Fluid Dynamics \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Computer Control \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Power Electronics \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Multi-media Technology \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+PLC and Applications \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Micro-Controller Unit Technology \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Driving System Control \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Computer Simulation \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Digital Signal Processing \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Intelligent Control\par
+}}\pard\plain\s3\ql\sb240\sa120\keepn\f0\b\fs32\sl240\slmult1 \sb340 \fi0 MSc. Courses in Central South Univ.\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \fi0 { {\par
+\pard\plain\s0\qj\widctlpar\f0\fs20\sl240\slmult1 \sb60 \li600\fi-300 {}{  }\par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Modern Control Theories \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Power Electronics \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Matrix Analysis \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+Functional Analysis and Optimization \par
+\pard\plain\s46\ql\fi-283\li283\lin283\sb0\sa120\widctlpar\tql\tx283\f0\fs20\sl240\slmult1 \sb50 \li600\fi-300 \bullet\tab
+System Identification\par
+}}{{\fs16 \pard\plain\s9\qc\sb120\sa120\keep\widctlpar\f0\sl240\slmult1 \sb340 \fi0 \fs16 Last updated: \chdate \par
+\pard\plain\s9\qc\sb120\sa120\keep\widctlpar\f0\sl240\slmult1 \fi0 \fs16 {\f3 \field{\*\fldinst{ HYPERLINK "" }{{}}}{\fldrslt{{\f3 }}}} } \par
+}}}

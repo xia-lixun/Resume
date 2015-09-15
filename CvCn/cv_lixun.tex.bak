@@ -154,26 +154,41 @@
   \item[音频处理软件框架(Audio Framework) \hspace{0.2in} 2014 - 2015] \hfill \\
   音频处理软件框架对任何功放产品而言是作为数据处理的"骨架"。它定义了数据流是如何被分流以及处理的。配合各个信号处理的功能模块作为"肌肉"，功放的基本功能就被定义好了。本人的贡献是在国内第一次系统的描述了软件框架的原理结构以及如何使用各个功能模块完成系统设计与调试。生成的文档被同事评价为能够为所有的功放DSP工程师提供设计参考。
   \item[有源噪声消除(ANC/EOC) \hspace{0.2in} 2014 - 2015] \hfill \\
-  有源噪声消除是官方使用的基于最优估计的去除噪声的动态算法。在此的主要功能是消除载人汽车由于引擎的运转而传导到乘员舱的谐波噪声震动。本人主要贡献为建立了详细的系统描述文档，以及应用文档。同时开发了协同仿真工具帮助理解参数整定。这些文档与工具能够帮助开发人员迅速的将算法移植到各种嵌入式平台或产品。
-  \item[高效电源控制(Tracking Power Supply)] \hfill \\
+  有源噪声消除是官方使用的基于最优估计的去除噪声的动态算法。在此的主要功能是消除载人汽车由于引擎的运转而传导到乘员舱的谐波噪声震动。本人主要贡献为完成了项目的本地化转移，建立了详细的系统描述文档，以及应用文档。同时开发了协同仿真工具帮助理解参数整定。这些文档与工具能够帮助开发人员迅速的将算法移植到各种嵌入式平台或产品。此外，本人还建立了一个实物验证环境，基于运行ANC算法的功法以及仿真车内环境的London BLU-80DSP处理器。
+  \item[高效电源控制(Tracking Power Supply) \hspace{0.2in} 2014 - 2015] \hfill \\
   轨跟踪的电源(H-Class PSU)具有低压降的特点，用于大功率设备例如音频功放产品以提高效率降低散热。但是通常需要高精度DAC芯片的参与，来指定需要的轨电源大小。本人在此的贡献为创新的使用现有DSP芯片(Sigma300)的数字通信接口以及相应的DSP算法实现了同样效果，为功放产品降低成本做出了显著贡献。
-  \item[基于块处理的提示音控制(Chime Control Via Block Based Processing)] \hfill \\
+  \item[基于块处理的提示音控制(Chime Control Via Block Based Processing) \hspace{0.2in} 2014 - 2015] \hfill \\
   车载功放的常用功能是为特定情况提供提示音，例如乘客未系安全带等场景。提示音的实现一般要求极低的延迟因为其与安全息息相关。所以传统的方法是将其放在音频信号单采样处理芯片(Sigma300)的最后一级。但是部分功放产品同时具有块处理芯片(SHARC)。对于硬件不可变系统而言，使用块处理芯片实现提示音能够解决单采样芯片资源不足的问题。本人在此的贡献为首先在SHARC上实现了低延迟的实用提示音功能。扩展了功放平台的应用范围。
-  \vspace{0.25in}
-  \item[第二代${\textit ACOspector^{TM}}$ \hspace{0.2in} 2012 - 2014] \hfill \\
-  第一代非侵入式检测仪表的升级版的设计与开发。改进的FPGA设计，更好的PCB布线设计与实现。FPGA固件与上位机软件在可靠性和安全性方面进行了改进和升级。信号处理算法采用了更优秀的方法，使得信噪比有显著提升。改进了数据的存储方式有利于实现更高效的与建模软件的接口。
-  \item[第一代${\textit ACOspector^{TM}}$ \hspace{0.2in} 2010 - 2012] \hfill \\ 
+  \vspace{0.3in}
+  \item[${\textit ACOspector^{TM}}$ -- 非侵入式液体实时检测\hspace{0.2in} 2010 - 2014] \hfill \\
   本人领导了工业用非侵入式有源声频谱液体流量监测传感器${\textit ACOspector^{TM}}$的设计及开发, 产品用于各类流体性质的实时监测。产品已部署在瑞典知名造纸化工企业。传感器基于高动态范围PCB加速度传感器。更多信息请访问\href{http://www.acosense.com}{\tt www.acosense.com}. 其基本概念在于将IoT与云计算的便利引入到工业应用中，帮助工厂实现智能监测，降低能耗。低成本的传感器终端群被安装部署在工厂的各个管道处用于震动采集。中央服务器与这些终端群保持通信，对采集的信号进行处理与建模。工厂SCADA系统能无缝联入此服务器获取流量监测信息。这些信息能帮助现代的数据驱动的工厂减少能量消耗，提高产品质量。这同时也是工业4.0中的必要环节。
+
+  \vspace{0.1in}
+  技术亮点:
+  \begin{itemize}
+    \item[--] 至下而上的电路系统的设计，原理图开发，布线。系统包括一片中等规模的用于实现微控制器集群的FPGA芯片。用于高动态范围信号采集的ADC芯片(PCM4222)。用于高动态范围信号播放的DAC芯片(PCM1794A)。与FPGA接口的DDR2 DRAM芯片组用于提供MCU集群的程序空间。SPI Flash提供固件或软件的启动。三口以太网交换机芯片提供TCP/IP协议与Linux上位机通信，传输传感器数据。
+    \item[--] 硬件模块和原件的选择通过充分的论证，保证在性能，成本以及生命周期等各个方面能够取得最好的折中。
+    \item[--] 不同于使用实时操作系统和单片MCU，此项目中利用FPGA的特点实现了MCU集群的通信协议，能够让各个MCU运行各自进程并完成同步。同步通信基于FIFO队列。
+    \item[--] 所有软件模块使用单元测试，系统集成过程使用回归测试。测试过程脚本化以提高效率。
+    \item[--] 组内其他成员具有不同的开发技能，大家都使用敏捷开发模式。
+    \item[--] 代码和文档使用版本管理系统(GIT)
+    \item[--] 同瑞典客户紧密合作共同改进产品的质量和性能。
+    \item[--] 设计，原型机建造，组装，测试由同一个开发小组在公司车间完成。
+    \item[--] 开发小组在第三方机构完成了EMC/EMI测试。获得了CE认证。
+  \end{itemize}
+  \vspace{0.3in}
+  \item[矩阵电力变换器的设计与实现 \hspace{0.2in} 2007 - 2008] \hfill \\
+  矩阵电力变换器因为其高能量密度能够作为电机驱动电路(同步和异步电机)被受重视。矩阵电力变换器相比于传统的背靠背式整流-逆变电力变换器具有高功率密度的优点。然而大量电力电子开关的同步控制使得控制算法异常复杂。在这个国家自然科学基金支持的项目中，矩阵变换器的理论通过了充分的研究与论证，并且造出了实验用工程样机。基于载波的调制算法也在样机上得到了验证。本人的贡献为，矩阵变换起中性电流最小化控制算法的设计人以及样机主要的实现人。
 \end{description}
 
-  
+
 
 
 
 
 \section*{技术能力}
 \begin{itemize}
-        %\item Modeling, control and stability analysis of dynamic systems.
+        \item 电机驱动电力电子电路的建模, 控制及稳定性分析
         %\item Power converter circuits design (main circuits, sensors, drives, digital controller etc.).
         \item Matlab/Simulink建模与仿真。
         \item 数字/统计信号处理。
@@ -189,28 +204,39 @@
         \item 电路原理图设计(Altium Designer/Eagle PCB)，简单布线及焊接。
         \item 熟练使用实验室仪器包括:示波器，信号源，频谱分析仪, UPV/UPL, Audio Precision等等。
         \item 压电陶瓷传感器以及换能器原理与应用。
-        
-        
-        
-        
+
+
+
+
         %\item Hardware description (VHDL) and verification (testbench).
         %\item Digital ASIC backend flow (Cadence Encounter).
         %\item knowledge of digital communication.
         %\item Applied experience in Linux server application development.
         %\item Linux服务器端(上位机)应用软件开发经验。
-        
-        
+
+
         %\item 机器学习算法开发经验(回归分析，主成成分分析)。
         %\item 熟悉Perl脚本语言。
         %\item Circuit simulation and analysis with SPICE tools (LTspice).
         %\item Schematic capture, PCB layout (Altium Designer/Eagle PCB) and soldering.
         %\item In-depth user of workbench tools: oscilloscopes, function generator and spectrum analyzer etc.
-        
+
         %\item Knowledge on EMI/EMC test procedures for product design.
         \item 产品的EMI/EMC测试流程经验。
         \item 专业的建立文档的经验，使用 \LaTeX 和 Microsoft Office。
         \item 熟悉敏捷开发流程和实践。
 \end{itemize}
+
+
+\section*{语言能力}
+\begin{itemize}
+\item 普通话: 流利
+\item 英语: 流利
+\item 瑞典语: 入门
+\end{itemize}
+
+
+\section*{驾驶执照: C1}
 
 
 \section*{出版物}

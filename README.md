@@ -11,27 +11,32 @@ _Email: lixun.xia@outlook.com_
 
 ## **Experience**
 * 2014.6 - present  
-    **_Sr. Digital Signal Processing Engineer, CoC Audio, Harman Suzhou_**
+    **_Sr. Digital Signal Processing Engineer, Center of Competence, Harman Suzhou_**
 
     * Acoustic measurements
+    * Lab automation
     * Agile software development
-    * C++/Lua/Julia/Matlab
-    * Application of machine learning in problem solving
-    * SW/HW co-design for product optimization
+    * C/C++/Lua/Julia/Matlab
+    * Embedded system development
+    * In-depth knowledge of hardware electronics
+
 * 2010.9 - 2014.3  
     **_Research and development engineer of Acosense AB, Göteborg, Sweden_**
 
-    * Lead the development of active acoustic spectroscopic sensors for fluid measurement in process industry
-    * Close contact with customers about specifications and trouble-shooting
-    * Design and fabricate proprietary instrument including both SW and HW
-    * Practice of IoT and clouds for industrial instruments
-    * Application of machine learning in problem sovling
-    * SCADA interface and industrial networking
+    * Inovative spin-off of ABB
+    * Lead the development of active acoustic spectroscopic sensors for process industry
+    * Work with customers in development and sales
+    * Design and assemble proprietary instrument in house
+    * Responsible for the CE certification of the product
+    * Field technical support of the after-sales
+    * SCADA and industrial field bus (Profibus/ModBus/4-20mA)
 
 ## **Education**
 2008.9 - 2010.9 _M.Sc._ Integrated Electronic System Design, Chalmers University, Sweden
 
-2001.9 - 2008.6 _B.Sc._ and _M.Sc._ Control Science and Engineering, Central South University, China
+2005.0 - 2008.6 _M.Sc._ Power Electronics, Central South University, China
+
+2001.9 - 2005.6 _B.Sc._ Control Science and Engineering, Central South University, China
 
 
 ## **Projects**
@@ -49,7 +54,7 @@ _Email: lixun.xia@outlook.com_
 
 * **_ACOspector(TM) – non-invasive fluid measurement in real-time_** (2010 - 2014)
 
-    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). The concept is based on IoT and cloud computing — compact, robust and low-cost sensor terminal group paired with one centralized server for data processing in star-topology network. Machine learning running in the backbone builds regression models for fluid property estimation. Hence multiple measurement points can be monitored non-invasively at extremely low cost for modern data-driven factories. As the system designer and developer, my contribution: the path finder of such promising measurement method for the industrial 4.0.
+    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). My contributions are: (a)make of the first prototype in industry (b)evolve the product for two generations to allow deployment for customers. Now my products have been installed in multiple chemical/pulp-and-paper factories in Sweden (c)Get the CE certificate for product (d)Hardware and software are developed in-house. (e)Now Acosense is a company in public stock market in Sweden.
 
 * **_Matrix Power Converter Design and Implementation_** (2007 - 2008)
 
@@ -62,11 +67,17 @@ _Email: lixun.xia@outlook.com_
     2. Yao Sun, Mei Su, Lixun Xia, et al "_Randomized carrier modulation for four-leg matrix converter based on optimal Markov chain_", Industrial Technology, 2008. ICIT 2008. IEEE International Conference on. pp.1-6. 
     
     3. Hengsi Qin, Mei Su, Lixun Xia, et al "_A novel controller design method for power converters_", IEEE 11th Workshop on Control and Modeling for Power Electronics, 2008. COMPEL 2008. IEEE International Conference on
+
 ## **Technical Skills**
-1. Strong C/C++/Matlab/Lua/Julia background in industrial applications
-2. Certified scrum master in agile development by Scrum Alliance
-3. Experience of hardware developemtn from PCB and components to circuits and systems
-4. Experience of industrial field buses and SCADA systems
+1. Coding with C/C++/Matlab/Lua/Julia
+2. FPGA/SoC embedded system design and development on Xilinx(TM) platform
+3. VHDL and verification skills
+4. DSP/MCU system development
+5. Industrial sensor/actuator design and development
+6. Certified scrum master by Scrum Alliance
+7. Hardware development in schematics/PCB layout/system simulation/EMC vertificate and trouble shooting
+8. Industrial control and automation, field bus and SCADA systems
+9. knowledge and experience in CE certificate
  
 ## **Language Skills**
 1. Chinese - native

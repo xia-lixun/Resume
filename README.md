@@ -55,7 +55,7 @@ _Email: lixun.xia@outlook.com_
 
 * **_ACOspector(TM) – non-invasive fluid measurement in real-time_** (2010 - 2014)
 
-    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). My contributions are: (a)make of the first prototype in industry (b)evolve the product for two generations to allow deployment for customers. Now my products have been installed in multiple chemical/pulp-and-paper factories in Sweden (c)Get the CE certificate for product (d)Hardware and software are developed in-house. (e)Now Acosense is a company in public stock market in Sweden.
+    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). My contributions are: (a)make of the first prototype in industry --- sensory control FPGA platform and linux server for data processing; (b)evolve the product for two generations to allow deployment for customers; Now my products have been installed in multiple chemical/pulp-and-paper factories in Sweden; (c)Get the CE certificate for product; (d)Hardware and software are developed in-house; (e)Now Acosense is a company in public stock market in Sweden.
 
 * **_Matrix Power Converter Design and Implementation_** (2007 - 2008)
 
@@ -71,14 +71,15 @@ _Email: lixun.xia@outlook.com_
 
 ## **Technical Skills**
 1. Coding with C/C++/Matlab/Lua/Julia
-2. FPGA/SoC embedded system design and development on Xilinx(TM) platform
-3. VHDL and verification skills
-4. DSP/MCU system development
-5. Industrial sensor/actuator design and development
-6. Certified scrum master by Scrum Alliance
-7. Hardware development in schematics/PCB layout/system simulation/EMC vertificate and trouble shooting
-8. Industrial control and automation, field bus and SCADA systems
-9. knowledge and experience in CE certificate
+2. Linux development (Network stack, threading, database etc.)
+3. FPGA/SoC embedded system design and development on Xilinx(TM) platform
+4. VHDL and verification skills
+5. DSP/MCU system development
+6. Industrial sensor/actuator design and development
+7. Certified scrum master by Scrum Alliance
+8. Hardware development in schematics/PCB layout/system simulation/EMC vertificate and trouble shooting
+9. Industrial control and automation, field bus and SCADA systems
+10. knowledge and experience in CE certificate
  
 ## **Language Skills**
 1. Chinese - native

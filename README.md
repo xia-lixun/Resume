@@ -13,23 +13,24 @@ _Email: lixun.xia@outlook.com_
 * 2014.6 - present  
     **_Sr. Digital Signal Processing Engineer, Center of Competence, Harman Suzhou_**
 
-    * Acoustic measurements
+    * Acoustic Measurements/Sensory Application
     * Lab automation
     * Agile software development
     * C/C++/Lua/Julia/Matlab
-    * Embedded system development
-    * In-depth knowledge of hardware electronics
+    * Embedded/DSP SW/HW development
+    * In-depth knowledge of electronic hardware
 
 * 2010.9 - 2014.3  
     **_Research and development engineer of Acosense AB, Göteborg, Sweden_**
 
     * Inovative spin-off of ABB
-    * Lead the development of active acoustic spectroscopic sensors for process industry
-    * Work with customers in development and sales
-    * Design and assemble proprietary instrument in house
-    * Responsible for the CE certification of the product
-    * Field technical support of the after-sales
-    * SCADA and industrial field bus (Profibus/ModBus/4-20mA)
+    * Leader of product Acospector^{TM}
+    * Industrial fluid property measurement based on active acoustic spectroscopic sensors
+    * Work with customers in from the inception
+    * Responsible for major HW/SW design and implementations
+    * Responsible for CE certification
+    * Experience with industrial field bus protocols (RS485, 4-20mA, Modbus, Profibus etc.)
+    * Experience with digital bus protocols (SPI, I2S, I2C, RS232 etc.)
 
 ## **Education**
 2008.9 - 2010.9 _M.Sc._ Integrated Electronic System Design, Chalmers University, Sweden
@@ -42,11 +43,11 @@ _Email: lixun.xia@outlook.com_
 ## **Projects**
 * **_Microsoft Cortana Frontend Speakerphone_** (2016 - 2017)
 
-    Harman's solution for Microsoft in far-field speech comminication. My contribution includes: (a) design and implement tuning interface for automatic verifications (b) automate measuring processing to allow fast parameter searching for performance optimation
+    Harman's solution for Microsoft in far-field speech comminication. My contribution includes: (a) design and implement tuning interface for automatic verifications of sensory products; (b) automate measuring processing to allow fast parameter searching for performance optimization
 
 * **_Acoustic Feature Engineering_** (2015 - 2016)
 
-    Exctracting an useful set of acoustic features for voice-activity detection (VAD), and many more, for example real-time sound event detection. Combined with various machine learning models, sounds are becoming more and more important in both every day life and industry.
+    Exctracting an useful set of acoustic features for voice-activity detection (VAD) via Machine Learning approach, for example real-time sound event detection. Real time demo is implemented on PC platform.
 
 * **_Novel Control of Tracking Power Supply_** (2014 - 2015)
 

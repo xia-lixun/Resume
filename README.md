@@ -11,26 +11,24 @@ _Email: lixun.xia@outlook.com_
 
 ## **Experience**
 * 2014.6 - present  
-    **_Sr. Digital Signal Processing Engineer, Center of Competence, Harman Suzhou_**
+    **_Sr. Engineer, Digital Signal Processing, Center of Competence, Harman Suzhou_**
 
-    * Acoustic Measurements/Sensory Application
-    * Lab automation
-    * Agile software development
-    * C/C++/Lua/Julia/Matlab
-    * Embedded/DSP SW/HW development
-    * In-depth knowledge of electronic hardware
+    * Machine Learning (Voice Activity Detection, Single-Mic Noise Reduction)
+    * Acoustic measurements
+    * AI product tuning
+    * C++/Julia/Matlab/PyTorch/Tensorflow
+    * FPGA/DSP development
 
 * 2010.9 - 2014.3  
-    **_Research and development engineer of Acosense AB, Göteborg, Sweden_**
+    **_Engineer, R&D, Acosense AB, Göteborg, Sweden_**
 
-    * Inovative spin-off of ABB
-    * Leader of product Acospector^{TM}
-    * Industrial fluid property measurement based on active acoustic spectroscopic sensors
-    * Work with customers in from the inception
-    * Responsible for major HW/SW design and implementations
-    * Responsible for CE certification
-    * Experience with industrial field bus protocols (RS485, 4-20mA, Modbus, Profibus etc.)
-    * Experience with digital bus protocols (SPI, I2S, I2C, RS232 etc.)
+    * Machine learning feature engineering
+    * Embedded system design and development
+    * VHDL/micro-controller programing
+    * Circuit design and PCB layout
+    * Knowledge of industrial field-bus
+    * Knowledge of CE certification of EE products
+
 
 ## **Education**
 2008.9 - 2010.9 _M.Sc._ Integrated Electronic System Design, Chalmers University, Sweden
@@ -41,21 +39,35 @@ _Email: lixun.xia@outlook.com_
 
 
 ## **Projects**
-* **_Microsoft Cortana Frontend Speakerphone_** (2016 - 2017)
+* **_VAD/Single-Mic Noise Reduction_**(2017 - 2018)  
+    * build of high-quality speech and noise data
+    * deep nerual network
+    * state-of-the-art Signal Distortion Ratio (SDR > 13.5dB)
+    * evolution via model bootstrapping
 
-    Harman's solution for Microsoft in far-field speech comminication. My contribution includes: (a) design and implement tuning interface for automatic verifications of sensory products; (b) automate measuring processing to allow fast parameter searching for performance optimization
+* **_Tuning of Harman Kardon Invoke_** (2016 - 2017)
+
+    * Microsoft far-field AI speakerphone
+    * tuning paramters of mic frontend processing (AEC/BS/ABF/NR/Leveller) for ASR, KWS and Skype 
+    * Harman global reward for successful project
 
 * **_Acoustic Feature Engineering_** (2015 - 2016)
 
-    Exctracting an useful set of acoustic features for voice-activity detection (VAD) via Machine Learning approach, for example real-time sound event detection. Real time demo is implemented on PC platform.
+    * acoustic features for voice-activity detection
+    * development of VST plugins for realtime application
+    * experienced VST developer (C/C++/Visual Studio)
 
 * **_Novel Control of Tracking Power Supply_** (2014 - 2015)
 
-    Control of tracking power supply often requires high precision DAC chip for power rail indication. My achievement here is the elimination of the DAC chip but utilizing the digital port alone of the DSP chip for rail indication. Cost down has been achieved thanks to this novel method of power rail control in H-class PSU.
+    * creative method for power control of H-class PSU
+    * save the cost of expensive DAC
+    * used in amplifier products
 
 * **_ACOspector(TM) – non-invasive fluid measurement in real-time_** (2010 - 2014)
 
-    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). My contributions are: (a)make of the first prototype in industry --- sensory control FPGA platform and linux server for data processing; (b)evolve the product for two generations to allow deployment for customers; Now my products have been installed in multiple chemical/pulp-and-paper factories in Sweden; (c)Get the CE certificate for product; (d)Hardware and software are developed in-house; (e)Now Acosense is a company in public stock market in Sweden.
+    Lead the development of the industrial fluid property measurement sensor based on active acoustic spectroscopy measurement. Products have been deployed among pulp and paper, chemical factories in Sweden. Some information can be found in [_www.acosense.com_](www.acosense.com). Contributions: 
+    * made the first prototype that delivers to customers
+    * improved the product to its second generation
 
 * **_Matrix Power Converter Design and Implementation_** (2007 - 2008)
 
@@ -69,17 +81,6 @@ _Email: lixun.xia@outlook.com_
     
     3. Hengsi Qin, Mei Su, Lixun Xia, et al "_A novel controller design method for power converters_", IEEE 11th Workshop on Control and Modeling for Power Electronics, 2008. COMPEL 2008. IEEE International Conference on
 
-## **Technical Skills**
-1. Coding with C/C++/Matlab/Lua/Julia
-2. Linux development (Network stack, threading, database etc.)
-3. FPGA/SoC embedded system design and development on Xilinx(TM) platform
-4. VHDL and verification skills
-5. DSP/MCU system development
-6. Industrial sensor/actuator design and development
-7. Certified scrum master by Scrum Alliance
-8. Hardware development in schematics/PCB layout/system simulation/EMC vertificate and trouble shooting
-9. Industrial control and automation, field bus and SCADA systems
-10. knowledge and experience in CE certificate
  
 ## **Language Skills**
 1. Chinese - native

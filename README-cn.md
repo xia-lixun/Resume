@@ -1,4 +1,4 @@
-# **Xia Lixun [(夏立勋)](http://www.linkedin.com/pub/lixun-xia/1b/212/219)**
+# **[夏立勋](http://www.linkedin.com/pub/lixun-xia/1b/212/219)**
 
 
 >_南榭雨街18号,菁华公寓_  

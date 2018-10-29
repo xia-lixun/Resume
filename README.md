@@ -1,10 +1,10 @@
 # **Xia Lixun [(夏立勋)](http://www.linkedin.com/pub/lixun-xia/1b/212/219)**
 
 
->_Jinghua Apartment,_  
-_Nanxieyu Street 18,_  
-_Suzhou Industrial Park, 215025_  
-_Suzhou, Jiangsu, China_
+>_江南新村 09-301,_  
+_集街,_  
+_昆山玉山镇, 215300_  
+_苏州市, 江苏省, 中国_
 
 >_Mobile Phone: 13013815427_  
 _Email: lixun.xia@outlook.com_
@@ -39,11 +39,19 @@ _Email: lixun.xia@outlook.com_
 
 
 ## **Projects**
+* **_Automatic AI Sound Product Test Software_**(2017-2018)
+    * Automatic test of Automatic Speech Recgonition (ASR) and Keyword Spotting (KWS) performance of all AI products
+    * All test cases covering Quiet/Noise/Echo/Echo+Noise
+    * Test time optimized
+    * All process trackable
+    * High accuracy and excellent repeatibility
+
 * **_VAD/Single-Mic Noise Reduction_**(2017 - 2018)  
     * build of high-quality speech and noise data
     * deep nerual network
     * state-of-the-art Signal Distortion Ratio (SDR > 13.5dB)
-    * evolution via model bootstrapping
+    * model bootstrapping
+    * machine aided auto-labelling
 
 * **_Tuning of Harman Kardon Invoke_** (2016 - 2017)
 

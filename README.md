@@ -39,31 +39,60 @@ _Email: lixun.xia@outlook.com_
 
 
 ## **Projects**
-* **_Automatic AI Sound Product Test Software_**(2017-2018)
-    * Automatic test of Automatic Speech Recgonition (ASR) and Keyword Spotting (KWS) performance of all AI products
-    * All test cases covering Quiet/Noise/Echo/Echo+Noise
-    * Test time optimized
-    * All process trackable
-    * High accuracy and excellent repeatibility
+* **_Universal AI Sound Product Test Software_**(2017-2018)
 
-* **_VAD/Single-Mic Noise Reduction_**(2017 - 2018)  
+    * Automatic test of Automatic Speech Recgonition (ASR) and Keyword Spotting (KWS) performance of all AI products
+    * All test cases covering Quiet/Noise/Echo/Echo+Noise in anechoic/ETSI environment
+    * Capable of benchmark all AI speech entrance - Alexa Echo/Microsoft Invoke/Apple HomePod/Google Home
+    * Written in Julia with excellent runtime performance and scalability
+    * Robust enough for operations without human supervision 
+
+    This is my latest effort as part of the laboratory instrument automation. Instead of using traditional C++/C# as development language,
+    Julia is chosen for its fast prototyping and high performance. Its parallel/concurrent language models prove itself to be the perfect
+    tool in running asynchronous tasks in such tests. Speech, noise and echo music sound pressure levels (SPL), measured precisely in dBA, 
+    can easily be set according to a specification file, allowing the device-under-test to be exposed in precise signal-to-noise ratio 
+    during the ASR/KWS tests. Scoring of ASR/KWS test is performed asynchronously to minimize the time cost. This project is product ready
+    and has been constantly used in daily work.
+
+* **_Single-Mic Noise Reduction_**(2017 - 2018)  
+
     * build of high-quality speech and noise data
     * deep nerual network
     * state-of-the-art Signal Distortion Ratio (SDR > 13.5dB)
     * model bootstrapping
     * machine aided auto-labelling
 
+    This is an on-going project in exploring data-driven single microphone noise reduction. High quality noise data are collected with care
+    for deep nerual net training. Mel band spectrogram as input feature is used to infer the binary/fraction mask from the noisy speech. The
+    mask combined with the spectrogram are eventually synthesized back to time domain to form the clean speech. The signal-to-distortion ratio
+    is comparable to state of the art values. The deep nerual net trained with a small dataset is brilliantly used as VAD tool to expand data
+    labelling.  
+
 * **_Tuning of Harman Kardon Invoke_** (2016 - 2017)
 
     * Microsoft far-field AI speakerphone
     * tuning paramters of mic frontend processing (AEC/BS/ABF/NR/Leveller) for ASR, KWS and Skype 
+    * Hands on ACQUA test for communication 
     * Harman global reward for successful project
 
-* **_Acoustic Feature Engineering_** (2015 - 2016)
+    Get insight into AI sound products with parameter tuning and performance test. Experience of using ACQUA for acoustic test.
 
-    * acoustic features for voice-activity detection
+* **_Voice Activity Detection (VAD) based on Decision Tree_** (2016 - 2017)
+
+    * Frame features of speech including first/second moment statistics
+    * Decision tree models are built upon tabular feature data
+    * Implemented in VST for real time demonstration
+
+    The intention of this project is to realize a light weight VAD tool based on carefully chosen audio features found in speech: MFCC/Periodicity/band energy and many more. Decision tree models are considered to allow real time implementation. For clean speech our model has performance comparable 
+    to relavent VoiceBox functions. Besides, our model is trained to be working with moderate noises especially transient noise. Unlike deep nerual net
+    this model doesn't require as many data in training if support vectors are sufficient, so it fits many use cases like voice control within 
+    car/vehicle and/or ultra low power devices. 
+
+* **_Voice De-Reverberant_** (2015 - 2016)
+
+    * Fast online estimation of RT60
+    * Determine 'dry'/'wet' energy with short time window and hop size
     * development of VST plugins for realtime application
-    * experienced VST developer (C/C++/Visual Studio)
 
 * **_Novel Control of Tracking Power Supply_** (2014 - 2015)
 

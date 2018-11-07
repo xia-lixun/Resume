@@ -94,6 +94,17 @@ _Email: lixun.xia@outlook.com_
     * Determine 'dry'/'wet' energy with short time window and hop size
     * development of VST plugins for realtime application
 
+* **_Engine Order Cancellation_**(2014-2015)
+    * Implementation of in-vehicle engine noise cancellation
+    * Multiple-speaker multiple mic configuration
+    * Control state machine to allow distrubing events for example window opening
+    * Deploying in many commercial car products
+
+    This is the major project of the year. Engine noise is complicated mixture of harmonics of the rotor based frequency or RPM. We use adaptive filters to track the transfer
+    function from the noise source to passengers, the estimated paths will be used to generate compensatory sounds from the speakers. The overall effect to every passenger is 
+    quiet zones surrounding individuals. We investigated the Matlab codes and made C/C++ implemnentations for DSP and simulation platform for tuning purpose. Supporting tooling 
+    features, for example, measuring the impulse responses of sencondary paths efficiently and accurately while without loss of user friendly, are also designed and implemented. 
+
 * **_Novel Control of Tracking Power Supply_** (2014 - 2015)
 
     * creative method for power control of H-class PSU

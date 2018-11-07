@@ -13,6 +13,7 @@ _Email: lixun.xia@outlook.com_
 * 2014.6 - present  
     **_Sr. Engineer, Digital Signal Processing, Center of Competence, Harman Suzhou_**
 
+    * Acoustic signal processing
     * Machine Learning (Voice Activity Detection, Single-Mic Noise Reduction)
     * Acoustic measurements
     * AI product tuning

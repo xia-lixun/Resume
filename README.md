@@ -11,7 +11,7 @@ _Email: lixun.xia@outlook.com_
 
 ## **Experience**
 * 2014.6 - present  
-    **_Principle Engineer, Team Leader, Digital Signal Processing, Core of Competence, Harman Suzhou_**
+    **_Principle Engineer, Dept. Lead, Digital Signal Processing, Core of Competence, Harman Suzhou_**
 
     * Acoustic signal processing
     * Machine Learning (Voice Activity Detection, Single-Mic Noise Reduction)
@@ -40,6 +40,15 @@ _Email: lixun.xia@outlook.com_
 
 
 ## **Projects**
+* **_Tuning/Benchmark Samsung Galaxy Home AI Speaker_**(2018-2019)
+
+    * Algorithm tuning for KWS and ASR tasks
+    * Benchmark performances based on Samsung internal test standard and Amazon AVS
+    * Responsible for final performance and certifacation 
+
+    This is my latest project for Samsung AI group. We are responsible for the microphone preprocessing algorithms for Galaxy Home AI speaker. Like Harman/Kardon Invoke, it consists of AEC/BF/BS/NR stages to enable far-field speech recognition, but with the focus on an upgraded multi-channel AEC (M-AEC) which allows for echo cancellation in multichannel playback scenario, given Galaxy Home's 6 tweeters and one woofer. We succeded in tuning the system to meet the global requirement as well as the AVS specification (v3.5.6). As usual my tooling capability also allows for such task completed with minimal people incolved --- only 2 in Suzhou Labotory for this project!
+
+
 * **_Universal AI Sound Product Test Software_**(2017-2018)
 
     * Automatic test of Automatic Speech Recgonition (ASR) and Keyword Spotting (KWS) performance of all AI products

@@ -64,7 +64,7 @@ _Email: lixun.xia@outlook.com_
     during the ASR/KWS tests. Scoring of ASR/KWS test is performed asynchronously to minimize the time cost. This project is product ready
     and has been constantly used in daily work.
 
-* **_Single-Mic Noise Reduction_**(2017 - 2018)  
+* **_Single-Mic Noise Reduction Based On Deep Neural Network_**(2017 - 2018)  
 
     * build of high-quality speech and noise data
     * deep nerual network
@@ -78,7 +78,7 @@ _Email: lixun.xia@outlook.com_
     is comparable to state of the art values. The deep nerual net trained with a small dataset is brilliantly used as VAD tool to expand data
     labelling.  
 
-* **_Tuning of Harman Kardon Invoke_** (2016 - 2017)
+* **_Tuning/Benchmark of Harman Kardon Invoke_** (2016 - 2017)
 
     * Microsoft far-field AI speakerphone
     * tuning paramters of mic frontend processing (AEC/BS/ABF/NR/Leveller) for ASR, KWS and Skype 

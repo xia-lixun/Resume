@@ -1,33 +1,36 @@
-# **Xia Lixun [(夏立勋)](http://www.linkedin.com/pub/lixun-xia/1b/212/219)**
+# **Xia Lixun [(夏 立勋)](http://www.linkedin.com/pub/lixun-xia/1b/212/219)**
 
 
->_江南新村 09-301,_  
-_集街,_  
-_昆山玉山镇, 215300_  
-_苏州市, 江苏省, 中国_
+## **Contact**
+_江苏省昆山市玉山镇集街_  
+_江南新村 09-301_  
 
->_Mobile Phone: 13013815427_  
+_Zip Code: 215300_  
+_Mobile: 13013815427_  
 _Email: lixun.xia@outlook.com_
 
 ## **Experience**
 * 2014.6 - present  
-    **_Principle Engineer, Dept. Lead, Digital Signal Processing, Core of Competence, Harman Suzhou_**
+    **_Principle Engineer, Tech. Lead, Digital Signal Processing, Harman Automotive Electronic System (Suzhou), Suzhou, China_**
 
-    * Machine Learning: Voice Activity Detection(VAD), Single-Mic Noise Reduction, Key-Word Spotting (KWS) 
-    * Acoustic signal processing
-    * Acoustic measurements
-    * Rust/Python/C++/Julia/Matlab/PyTorch/Tensorflow
-    * FPGA/DSP development
+    * Design and development of light-weight Key Word Spotter (KWS) based on deep neural networks for embedded audio products
+    * Design and development of single-mic noise reduction based on deep models
+    * Design and development of Voice Activity Detection (VAD) based on deep models for embedded audio products
+    * Fully automatic test software for AI speaker products performance benchmarking 
+    * Development of classical signal processing modules for car audio and embedded audio
+    * Acoustic measurement skill (Anechoic, Semi Anechoic, ETSI)
+    * Language/Framework skills include: Rust/Python/C++/Julia/Matlab/PyTorch
+
 
 * 2010.9 - 2014.3  
-    **_Engineer, R&D, Acosense AB, Göteborg, Sweden_**
+    **_R&D Engineer, Acosense AB, Göteborg, Sweden_**
 
-    * Machine learning feature engineering
-    * Embedded system design and development
-    * VHDL/micro-controller programing
-    * Circuit design and PCB layout
-    * Knowledge of industrial field-bus
-    * Knowledge of CE certification of EE products
+    * Development of feature data collection for real-time online acoustic spectroscopic fluid chemical measurement based on Partial Least Square regression models
+    * Development of signal processing algorithms for feature calculation
+    * Development of FPGA for algorithm realizations
+    * Development of instrument hardware platform
+    * Development of industrial field bus communications
+    * In-depth knowledge of CE certification for industrial products
 
 
 ## **Education**
@@ -40,13 +43,14 @@ _Email: lixun.xia@outlook.com_
 
 ## **Projects**
 
-* **_Light-Weight Key Word Spotter (KWS) for Embedded Audio Devices (2019 - )_**
+* **_Light-Weight Key Word Spotter (KWS) for Harman Embedded Audio Products (2019 - )_**
 
-    * Data collection and data processing
-    * Training of deep models and benchmarking
-    * Model inference and VST
+    * Delivered a generic KWS model training framework aiming for portable audio products
+    * Data collection and pre-processing for deep model training and validation
+    * Feature calculation, deep model training, selection and validation
+    * Model inference code for business units
 
-    For MIPS and memory constraint embedded audio devices like TWS headhones, key-word spotting must be realized with comparable performance from competitors. We successfully implement a framework for arbitrary KWS to be integrated into embedded audio products based on CNN models. 
+    Key word spotter of configurable target word with MIPS and memory constraints are getting more attractiveness to portable audio products, like TWS headhones. Performance per MIPS x Memory is the new ruler for the competetion. Deep model training framework that fulfills our specific requirements has been carefully designed and development, in order to generate streamlined deep models with predefined MIPS and memory footprint, at acceptable precision and recall. The value of this framework is in how audio domain knowledge is combined with advanced software skills, on top of the tremendous data collected, to allow me to train a high performance model on an ordinary PC within reasonble amount of time. 
 
 * **_Tuning/Benchmark Samsung Galaxy Home AI Speaker (2018-2019)_**
 

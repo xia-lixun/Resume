@@ -18,8 +18,8 @@ _Email: lixun.xia@outlook.com_
     * Design and development of Voice Activity Detection (VAD) based on deep models for embedded audio products
     * Fully automatic test software for AI speaker products performance benchmarking 
     * Development of classical signal processing modules for car audio and embedded audio
-    * Acoustic measurement skill (Anechoic, Semi Anechoic, ETSI)
-    * Language/Framework skills include: Rust/Python/C++/Julia/Matlab/PyTorch
+    * Acoustic measurement skill (Anechoic, Semi Anechoic, ETSI, ACQUA etc.)
+    * Language/Framework skills include: Rust, Python, C++, Julia, Matlab, PyTorch
 
 
 * 2010.9 - 2014.3  
@@ -29,7 +29,7 @@ _Email: lixun.xia@outlook.com_
     * Development of signal processing algorithms for feature calculation
     * Development of FPGA for algorithm realizations
     * Development of instrument hardware platform
-    * Development of industrial field bus communications
+    * Development of industrial field bus communications with SCADA integration
     * In-depth knowledge of CE certification for industrial products
 
 

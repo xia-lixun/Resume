@@ -62,14 +62,14 @@ _Email: lixun.xia@outlook.com_
 
 * **_Performance benchmark of Samsung Galaxy Home AI Speaker (2018-2019)_**
 
-    * Objective measurement of KWS and ASR performance
-    * Evaluation of product performance according to various standards (Samsung, MSFT, Amazon AVS and Google)
+    * Objective measurement of KWS and ASR performance under varsious situations (noise, echo, orientation etc.)
+    * Evaluation of product performance according to various standards (Samsung Certificate, MSFT Cortana and Skype, Amazon AVS and Google ART certificate)
     * Responsible for final performance certification 
 
     Latest project for Samsung AI group. Responsible for performance evaluations of the microphone preprocessing. This product is well known for its multi-channel AEC (M-AEC), which allows echo cancellation in multichannel playbacks. Its hex-tweeter configuration may render spatial sound effects. Thanks to the Universal AI Speaker Test Software, thorough tests on KWS and ASR accuracies, DOA properties, AEC as well as noise rejection performance are measured and full report can be generated without human in the loop.  
 
 
-* **_Universal AI Speaker Test Software (2017-2018)_**
+* **_Universal AI Speaker Test Software (2018-2019)_**
 
     * Automatic test of ASR, KWS, AEC, DOA and noise reduction performance of virtually any AI speaker products
     * Test cases covering Quiet/Noise/Echo/Echo+Noise with arbitrary spatial configurations in anechoic/ETSI room
@@ -99,6 +99,11 @@ _Email: lixun.xia@outlook.com_
 
     Microsoft AI speech products are tier one in industry. Skype and Cortana specifications for speakerphone is the de-facto standards for nearly all AI speakers. Insights into the certification have been obtained by means of parameter tuning and performance measurement during the project. ACQUA system was also used for Skype standard certification. Thorough understanding of the certifications urged me to go for an universal solution of AI speaker test and benchmark, which is listed as a subsequent project. 
 
+
+* **_Code Porting (Matlab -> C++): VAD based on Adaoost (2015 - 2016)_**
+    * Realizations of features (MFCC, Band Energy, Harmonicity etc.) that can separate speech from noise content
+    * Realizations of VST for real time showcasing
+    * Trained with AdaBoost ML algorithm
 
 * **_Code Porting (Matlab -> C++): Voice De-reverberant (2015 - 2016)_** 
 

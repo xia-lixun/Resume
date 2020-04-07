@@ -166,3 +166,8 @@ _邮件: lixun.xia@outlook.com_
 
                             David Brohall
                             Executive Director at Gote Business Services AB
+
+
+## **自我评价**
+
+    工作认真细致。对技术有一定追求。寻求解决问题的快乐。

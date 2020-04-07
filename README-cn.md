@@ -151,6 +151,9 @@ _邮件: lixun.xia@outlook.com_
 
 
 ## **编程语言技能**
+
+熟练使用以下几种开发语言：
+
 1. Rust
 2. C/C++ 
 3. Julia 

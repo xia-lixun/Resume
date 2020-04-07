@@ -10,10 +10,10 @@ _Email: lixun.xia@outlook.com_
 * 2014.6 - present  
     **_Principle Engineer, Tech. Lead, Digital Signal Processing, Harman Automotive Electronic System (Suzhou), Suzhou, China_**
 
-    * Design and development of light-weight Key Word Spotter (KWS) based on deep neural networks for embedded audio products
-    * Design and development of single-mic noise reduction based on deep models
-    * Design and development of Voice Activity Detection (VAD) based on deep models for embedded audio products
-    * Fully automatic test software for AI speaker products performance benchmarking 
+    * Lead the design and development of light-weight Key Word Spotter (KWS) based on deep neural networks for embedded audio products
+    * Lead the design and development of single-mic noise reduction based on deep models
+    * Lead the design and development of Voice Activity Detection (VAD) based on deep models for embedded audio products
+    * Lead the design and development of fully automatic test software for AI speaker products performance benchmarking 
     * Development of classical signal processing modules for car audio and embedded audio
     * Acoustic measurement skill (Anechoic, Semi Anechoic, ETSI, ACQUA etc.)
     * Language/Framework skills include: Rust, Python, C++, Julia, Matlab, PyTorch

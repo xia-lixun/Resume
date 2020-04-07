@@ -2,10 +2,7 @@
 
 
 ## **Contact**
-_江苏省昆山市玉山镇集街_  
-_江南新村 09-301_  
 
-_Zip Code: 215300_  
 _Mobile: 13013815427_  
 _Email: lixun.xia@outlook.com_
 
@@ -151,8 +148,26 @@ _Email: lixun.xia@outlook.com_
     3. Hengsi Qin, Mei Su, Lixun Xia, et al "_A novel controller design method for power converters_", IEEE 11th Workshop on Control and Modeling for Power Electronics, 2008. COMPEL 2008. IEEE International Conference on
 
  
-## **Language Skills**
+## **Natural Language Skills**
 1. Chinese - native
 2. English - proficient
 
-## **Driver's License - C1** 
+
+## **Programming Language Skills**
+1. Rust
+2. C/C++
+3. Julia
+4. Matlab
+5. Python
+6. VHDL
+
+
+## **Comments of Former Employer**
+    "Mr. Lixun Xia is one of the best engineers that I've had the pleasure to work with. We have been working together for four years in developing software and hardware for the automation industry, which require fault tolerant systems with limited down time. Mr. Xia's main responsibility has been hardware close programming in microcontrollers, FPGA and computers; mostly Linux and BSD systems.
+
+    His problem solving capabilities are impressive and he always finds a rock solid solution to the assigned task. Later he is optimizing the solution to be as close to theoretical limits as possible. He always delivers what he has promised and has an enormous commitment to his work.
+
+    I wish I would have the pleasure working with Mr. Lixun Xia again in the future and thank him for his support for this time."
+
+                            David Brohall
+                            Executive Director at Gote Business Services AB

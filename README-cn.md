@@ -2,10 +2,7 @@
 
 
 ## **联系方式**
-_江苏省昆山市玉山镇集街_  
-_江南新村 09-301_  
 
-_邮政编码: 215300_  
 _电话: 13013815427_  
 _邮件: lixun.xia@outlook.com_
 
@@ -149,6 +146,23 @@ _邮件: lixun.xia@outlook.com_
  
 ## **语言技能**
 1. 汉语 - 母语
-2. 英语 - 流利
+2. 英语 - 流利, 在瑞学习两年，工作四年
 
-## **驾照 - C1** 
+
+## **编程语言技能**
+1. Rust
+2. C/C++ 
+3. Julia 
+4. Matlab 
+5. Python 
+6. VHDL
+
+## **前雇主评价**
+    "Mr. Lixun Xia is one of the best engineers that I've had the pleasure to work with. We have been working together for four years in developing software and hardware for the automation industry, which require fault tolerant systems with limited down time. Mr. Xia's main responsibility has been hardware close programming in microcontrollers, FPGA and computers; mostly Linux and BSD systems.
+
+    His problem solving capabilities are impressive and he always finds a rock solid solution to the assigned task. Later he is optimizing the solution to be as close to theoretical limits as possible. He always delivers what he has promised and has an enormous commitment to his work.
+
+    I wish I would have the pleasure working with Mr. Lixun Xia again in the future and thank him for his support for this time."
+
+                            David Brohall
+                            Executive Director at Gote Business Services AB
